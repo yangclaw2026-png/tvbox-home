@@ -151,7 +151,13 @@ def save_category(movies, filename):
         })
     
     filepath = DATA_DIR / filename
-    filepath.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    wrapped = {
+        "list": output,
+        "page": 1,
+        "pagecount": 1,
+        "total": len(output)
+    }
+    filepath.write_text(json.dumps(wrapped, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  保存: {filename} ({len(output)} 部)")
 
 def main():
