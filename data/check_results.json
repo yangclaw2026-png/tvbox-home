@@ -2,37 +2,37 @@
   {
     "name": "豆瓣资源",
     "status": "ok",
-    "latency": 1429,
+    "latency": 1264,
     "type": "cms"
   },
   {
     "name": "光速资源",
     "status": "ok",
-    "latency": 638,
+    "latency": 565,
     "type": "cms"
   },
   {
     "name": "红牛资源",
     "status": "ok",
-    "latency": 514,
+    "latency": 270,
     "type": "cms"
   },
   {
     "name": "茅台资源",
     "status": "ok",
-    "latency": 1185,
+    "latency": 1297,
     "type": "cms"
   },
   {
     "name": "量子资源",
     "status": "ok",
-    "latency": 824,
+    "latency": 574,
     "type": "cms"
   },
   {
     "name": "非凡资源",
     "status": "ok",
-    "latency": 1815,
+    "latency": 1396,
     "type": "cms"
   },
   {
@@ -43,13 +43,13 @@
   {
     "name": "索尼资源",
     "status": "ok",
-    "latency": 505,
+    "latency": 346,
     "type": "cms"
   },
   {
     "name": "闪电资源",
     "status": "ok",
-    "latency": 445,
+    "latency": 168,
     "type": "cms"
   },
   {
