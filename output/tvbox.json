@@ -7,7 +7,8 @@
       "type": 4,
       "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/movies.json",
       "searchable": 0,
-      "quickSearch": 0
+      "quickSearch": 0,
+      "group": "电影排行"
     },
     {
       "key": "tv_rank",
@@ -15,7 +16,8 @@
       "type": 4,
       "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/tv.json",
       "searchable": 0,
-      "quickSearch": 0
+      "quickSearch": 0,
+      "group": "电视剧排行"
     },
     {
       "key": "variety_rank",
@@ -23,7 +25,8 @@
       "type": 4,
       "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/variety.json",
       "searchable": 0,
-      "quickSearch": 0
+      "quickSearch": 0,
+      "group": "综艺排行"
     },
     {
       "key": "cms_0",
@@ -147,7 +150,7 @@
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-27T12:43:19.206018",
+  "_lastUpdate": "2026-08-27T13:07:31.645420",
   "_stats": {
     "movies": 4,
     "tv": 4,

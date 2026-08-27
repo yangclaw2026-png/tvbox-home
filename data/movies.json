@@ -113,7 +113,7 @@
     {
       "vod_id": 99160,
       "vod_name": "去往你的岛屿",
-      "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260826-1/b28b173f934563837f0aaf0dbcae6690.jpg",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1784613495396-dfdf0b.webp",
       "vod_year": "2026",
       "vod_area": "西班牙",
       "vod_remarks": "HD中字",
@@ -124,7 +124,7 @@
     {
       "vod_id": 159803,
       "vod_name": "哆啦A梦：新·大雄的海底鬼岩城",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1779473895442-38g319.webp",
+      "vod_pic": "https://img.picbf.com/upload/vod/20260826-1/368d8821f59db0ddf86eabdf3ecc90ef.webp",
       "vod_year": "2026",
       "vod_area": "日本",
       "vod_remarks": "更新至HD",
@@ -142,17 +142,6 @@
       "vod_class": "动作片",
       "rating": "",
       "source": "非凡资源"
-    },
-    {
-      "vod_id": 28961,
-      "vod_name": "血色情人节",
-      "vod_pic": "https://mtzy2.com/upload/vod/20250108-47/a82b074cdf2b857de8c8f66b7ee54185.jpg",
-      "vod_year": "2019",
-      "vod_area": "泰国",
-      "vod_remarks": "正片",
-      "vod_class": "爱情片",
-      "rating": "",
-      "source": "茅台资源"
     },
     {
       "vod_id": 159801,
@@ -289,7 +278,7 @@
     {
       "vod_id": 158447,
       "vod_name": "夜王",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1770476901052-504gcc.webp",
+      "vod_pic": "https://img.guangsuimage.com/cover/4278b6f894f7966302cab06900db24a5.jpg",
       "vod_year": "2026",
       "vod_area": "中国大陆 / 中国香港",
       "vod_remarks": "正片",
@@ -300,7 +289,7 @@
     {
       "vod_id": 159615,
       "vod_name": "蝙蝠侠：骑士陨落",
-      "vod_pic": "https://img.picbf.com/upload/vod/20260825-1/a8426302d1d4408182e540f45630dddf.png",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1787753411795-5447c4.webp",
       "vod_year": "2030",
       "vod_area": "美国",
       "vod_remarks": "更新至HD",
@@ -399,7 +388,7 @@
     {
       "vod_id": 153536,
       "vod_name": "怪癖英雄",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1720336863274-gcb116.jpg",
+      "vod_pic": "https://snzypic.vip/upload/vod/20260824-1/cdc4d99dec62026f171664e0fea9e147.jpg",
       "vod_year": "2020",
       "vod_area": "中国大陆",
       "vod_remarks": "HD国语",
@@ -410,12 +399,12 @@
     {
       "vod_id": 99132,
       "vod_name": "触电",
-      "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260824-1/aea65b48f224f2cd1eb2e93b34e449c6.jpg",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1775146968590-f96e67.webp",
       "vod_year": "2025",
       "vod_area": "香港",
       "vod_remarks": "HD粤语",
       "vod_class": "喜剧片",
-      "rating": "",
+      "rating": "6.8",
       "source": "非凡资源"
     },
     {
@@ -549,6 +538,17 @@
       "vod_class": "喜剧片",
       "rating": "",
       "source": "暴风资源"
+    },
+    {
+      "vod_id": 157003,
+      "vod_name": "The Legend of Van Dorn",
+      "vod_pic": "https://xl.xltupian.com/cover/d84dbf7f6fbc97507f432809e380a686.jpg",
+      "vod_year": "2025",
+      "vod_area": "美国",
+      "vod_remarks": "正片",
+      "vod_class": "爱情片",
+      "rating": "",
+      "source": "速播资源"
     }
   ],
   "page": 1,

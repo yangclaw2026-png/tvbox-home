@@ -1,9 +1,42 @@
 {
   "list": [
     {
+      "vod_id": 146643,
+      "vod_name": "欢迎来到蕾安家 第二季",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1787819380008-20e7d1.webp",
+      "vod_year": "2026",
+      "vod_area": "美国",
+      "vod_remarks": "第10集完结",
+      "vod_class": "欧美剧",
+      "rating": "",
+      "source": "茅台资源"
+    },
+    {
+      "vod_id": 144344,
+      "vod_name": "藏锋 2026",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260817-1/d5fb7bd88d9ef1d457dd345137163481.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "第16集",
+      "vod_class": "国产剧",
+      "rating": "",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 145866,
+      "vod_name": "金色 2026",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260825-1/70fee3b059a796f7f1348bc9601aab0a.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "第6集",
+      "vod_class": "国产剧",
+      "rating": "",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 153414,
       "vod_name": "特战英雄榜",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1654947241796-70446d.jpg",
+      "vod_pic": "https://img.lzipic.com/upload/vod/20260821-1/84fdbac5400dc3761ef9a9ae22b5ef1e.webp",
       "vod_year": "2018",
       "vod_area": "中国大陆",
       "vod_remarks": "更新至第12集",
@@ -69,7 +102,7 @@
     {
       "vod_id": 145953,
       "vod_name": "早春晴朗",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1787714354815-588fg3.webp",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260826-1/86856b111dfa56950ccb0c1e4c0d5a8f.jpg",
       "vod_year": "2026",
       "vod_area": "中国大陆",
       "vod_remarks": "第6集",
@@ -80,7 +113,7 @@
     {
       "vod_id": 192738,
       "vod_name": "醒来",
-      "vod_pic": "https://hongniuzyimage.com/cover/ba9bce0df1d163c5df894ffe0c8d1bca.jpg",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1787737324424-e7ba15.webp",
       "vod_year": "2026",
       "vod_area": "中国大陆",
       "vod_remarks": "第6集",
@@ -166,17 +199,6 @@
       "source": "红牛资源"
     },
     {
-      "vod_id": 159944,
-      "vod_name": "欢迎来到蕾安家 第二季",
-      "vod_pic": "https://img.picbf.com/upload/vod/20260827-1/faca4dd344cecb9f6cb67899c496f9ef.webp",
-      "vod_year": "2026",
-      "vod_area": "美国",
-      "vod_remarks": "完结",
-      "vod_class": "欧美剧",
-      "rating": "",
-      "source": "暴风资源"
-    },
-    {
       "vod_id": 153710,
       "vod_name": "欢迎来到蕾安家第二季",
       "vod_pic": "https://snzypic.vip/upload/vod/20260827-1/c5a6ce23b24af915e8a5000122174695.jpg",
@@ -256,32 +278,10 @@
     {
       "vod_id": 146220,
       "vod_name": "黑沙",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260827-1/94a07881bab90099633ef0e959e0829b.jpg",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1768949429569-652338.webp",
       "vod_year": "2026",
       "vod_area": "中国大陆",
       "vod_remarks": "第14集完结",
-      "vod_class": "国产剧",
-      "rating": "",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 144344,
-      "vod_name": "藏锋 2026",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260817-1/d5fb7bd88d9ef1d457dd345137163481.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国大陆",
-      "vod_remarks": "第16集",
-      "vod_class": "国产剧",
-      "rating": "",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 145866,
-      "vod_name": "金色 2026",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260825-1/70fee3b059a796f7f1348bc9601aab0a.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国大陆",
-      "vod_remarks": "第5集",
       "vod_class": "国产剧",
       "rating": "",
       "source": "豆瓣资源"
@@ -333,7 +333,7 @@
     {
       "vod_id": 138478,
       "vod_name": "花样少男少女 第2季",
-      "vod_pic": "https://mtzy2.com/upload/vod/20260702-1/411ea1b21dd7aeb90922f916f0595b54.jpg",
+      "vod_pic": "https://img.wmdb.tv/movie/poster/1782963572824-7e0dd8.webp",
       "vod_year": "2026",
       "vod_area": "日本",
       "vod_remarks": "第10集",
@@ -432,7 +432,7 @@
     {
       "vod_id": 216869,
       "vod_name": "机场教士",
-      "vod_pic": "https://img.wmdb.tv/movie/poster/1787741504275-ce46b8.webp",
+      "vod_pic": "https://img.guangsuimage.com/cover/9a9abae62ac32d205c7e5c11fc362d95.jpg",
       "vod_year": "2026",
       "vod_area": "澳大利亚",
       "vod_remarks": "第8集完结",
