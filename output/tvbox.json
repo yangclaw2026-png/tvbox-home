@@ -5,7 +5,7 @@
       "key": "movie_rank",
       "name": "🎬 电影排行",
       "type": 4,
-      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/movies.json",
+      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/movies.json",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -13,7 +13,7 @@
       "key": "tv_rank",
       "name": "📺 电视剧排行",
       "type": 4,
-      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/tv.json",
+      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/tv.json",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -21,7 +21,7 @@
       "key": "variety_rank",
       "name": "🎤 综艺排行",
       "type": 4,
-      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/variety.json",
+      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/variety.json",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -147,7 +147,7 @@
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-27T12:31:07.640290",
+  "_lastUpdate": "2026-08-27T12:43:19.206018",
   "_stats": {
     "movies": 4,
     "tv": 4,
