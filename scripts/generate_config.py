@@ -43,16 +43,6 @@ def generate():
         }
     ]
     
-    for i, source in enumerate(cms_sources):
-        sites.append({
-            "key": f"cms_{i}",
-            "name": f"🔍 {source['name']}",
-            "type": 1,
-            "api": source["api"],
-            "searchable": 1,
-            "quickSearch": 1
-        })
-    
     config = {
         "spider": SPIDER_URL,
         "sites": sites,
@@ -74,7 +64,7 @@ def generate():
             "movies": len(movies),
             "tv": len(tv),
             "variety": len(variety),
-            "sources": len(cms_sources)
+            "sources": 1
         }
     }
     
@@ -82,8 +72,8 @@ def generate():
     config_file.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
     print(f"配置生成完成:")
-    print(f"  排行榜: 指向 Worker API")
-    print(f"  CMS源: {len(cms_sources)} 个")
+    print(f"  排行榜: 指向 Worker API（唯一 type 1 源）")
+    print(f"  搜索: Worker 转发给 CMS 源")
     print(f"  输出: {config_file}")
 
 if __name__ == "__main__":
