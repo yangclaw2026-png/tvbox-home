@@ -31,31 +31,14 @@
       "type": "cms"
     },
     {
-      "name": "卧龙资源",
-      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
-      "type": "cms"
-    },
-    {
       "name": "索尼资源",
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "type": "cms"
     },
     {
-      "name": "闪电资源",
-      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "name": "暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
       "type": "cms"
-    },
-    {
-      "name": "天堂资源",
-      "api": "http://vipmv.cc/api.php/provide/vod/",
-      "type": "cms"
-    }
-  ],
-  "pan_sources": [
-    {
-      "name": "小雅网盘",
-      "type": "pan",
-      "note": "网盘聚合资源"
     }
   ]
 }
