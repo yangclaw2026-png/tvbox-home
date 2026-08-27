@@ -7,9 +7,9 @@ DATA_DIR = Path("data")
 OUTPUT_DIR = Path("output")
 SOURCES_FILE = Path("scripts/sources.json")
 
-GITEE_USER = "angus66669999"
-GITEE_REPO = "tvbox-home"
-GITEE_RAW = f"https://gitee.com/{GITEE_USER}/{GITEE_REPO}/raw/master"
+GITHUB_USER = "yangclaw2026-png"
+GITHUB_REPO = "tvbox-home"
+GITHUB_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main"
 
 SPIDER_URL = f"https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
 
@@ -34,7 +34,7 @@ def generate():
             "key": "movie_rank",
             "name": "🎬 电影排行",
             "type": 4,
-            "api": f"{GITEE_RAW}/data/movies.json",
+            "api": f"{GITHUB_RAW}/data/movies.json",
             "searchable": 0,
             "quickSearch": 0
         },
@@ -42,7 +42,7 @@ def generate():
             "key": "tv_rank",
             "name": "📺 电视剧排行",
             "type": 4,
-            "api": f"{GITEE_RAW}/data/tv.json",
+            "api": f"{GITHUB_RAW}/data/tv.json",
             "searchable": 0,
             "quickSearch": 0
         },
@@ -50,7 +50,7 @@ def generate():
             "key": "variety_rank",
             "name": "🎤 综艺排行",
             "type": 4,
-            "api": f"{GITEE_RAW}/data/variety.json",
+            "api": f"{GITHUB_RAW}/data/variety.json",
             "searchable": 0,
             "quickSearch": 0
         }
