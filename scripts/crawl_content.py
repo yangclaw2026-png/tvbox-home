@@ -47,6 +47,8 @@ def fetch_rating(title, retries=2):
                                timeout=8, headers={"User-Agent": "Mozilla/5.0"})
             result = resp.json()
             items = result.get("data", [])
+            if attempt == 0:
+                print(f"  [DEBUG] '{title}' -> items={len(items) if items else 0}")
             if items and len(items) > 0:
                 item = items[0]
                 poster = ""
@@ -57,11 +59,13 @@ def fetch_rating(title, retries=2):
                     "rating": item.get("doubanRating", ""),
                     "poster": poster
                 }
-        except:
+        except Exception as e:
+            if attempt == 0:
+                print(f"  [DEBUG] '{title}' -> ERROR: {e}")
             if attempt < retries - 1:
                 time.sleep(1)
     return {}
-
+    
 def crawl_category(sources, category_type, target_count=50):
     all_movies = []
     
