@@ -11,7 +11,7 @@ GITEE_USER = "angus66669999"
 GITEE_REPO = "tvbox-home"
 GITEE_RAW = f"https://gitee.com/{GITEE_USER}/{GITEE_REPO}/raw/master"
 
-SPIDER_URL = f"https://ghfast.top/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
+SPIDER_URL = f"https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
 
 def load_category(filename):
     filepath = DATA_DIR / filename
@@ -80,10 +80,10 @@ def generate():
         ],
         "lives": [
             {
-                "name": "国内直播",
-                "type": 0,
-                "url": "https://raw.gitmirror.com/FanMingming/live/main/tv/m3u/ipv6.m3u",
-                "playerType": 1
+            "name": "国内直播",
+            "type": 0,
+            "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+            "playerType": 1
             }
         ],
         "_lastUpdate": datetime.now().isoformat(),
