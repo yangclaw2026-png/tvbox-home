@@ -9,12 +9,24 @@ SOURCES_FILE = Path("scripts/sources.json")
 DATA_DIR = Path("data")
 WMDB_API = "https://api.wmdb.tv/api/v1/movie/search"
 
-# 分类ID映射（大部分CMS站通用）
-CATEGORY_MAP = {
-    "movies": {"电影": 1},
-    "tv": {"国产剧": 2, "港台剧": 3, "日韩剧": 4, "欧美剧": 5, "海外剧": 6},
-    "variety": {"综艺": 7}
-}
+MOVIE_KEYWORDS = ["电影", "剧情", "动作", "喜剧", "爱情", "科幻", "恐怖", "战争", "动画", "犯罪", "悬疑", "冒险", "奇幻"]
+TV_KEYWORDS = ["国产剧", "港台剧", "日韩剧", "欧美剧", "海外剧", "连续剧", "电视剧", "剧集"]
+VARIETY_KEYWORDS = ["综艺", "真人秀", "脱口秀", "选秀", "音乐", "访谈"]
+
+def fetch_categories(api):
+    try:
+        resp = requests.get(api, params={"ac": "list"}, timeout=8,
+                          headers={"User-Agent": "Mozilla/5.0"})
+        data = resp.json()
+        return data.get("class", [])
+    except:
+        return []
+
+def match_category(cat_name, keywords):
+    for kw in keywords:
+        if kw in cat_name:
+            return True
+    return False
 
 def fetch_from_source(api, category_id=None, page=1, limit=30):
     try:
@@ -28,22 +40,31 @@ def fetch_from_source(api, category_id=None, page=1, limit=30):
     except:
         return [], 1
 
-def fetch_rating(title):
-    try:
-        resp = requests.get(WMDB_API, params={"q": title, "limit": 1},
-                           timeout=8, headers={"User-Agent": "Mozilla/5.0"})
-        data = resp.json()
-        if data and len(data) > 0:
-            return {
-                "rating": data[0].get("doubanRating", ""),
-                "poster": data[0].get("img", "")
-            }
-    except:
-        pass
+def fetch_rating(title, retries=2):
+    for attempt in range(retries):
+        try:
+            resp = requests.get(WMDB_API, params={"q": title, "limit": 1},
+                               timeout=8, headers={"User-Agent": "Mozilla/5.0"})
+            data = resp.json()
+            if data and len(data) > 0:
+                return {
+                    "rating": data[0].get("doubanRating", ""),
+                    "poster": data[0].get("img", "")
+                }
+        except:
+            if attempt < retries - 1:
+                time.sleep(1)
     return {}
 
 def crawl_category(sources, category_type, target_count=50):
     all_movies = []
+    
+    if category_type == "movies":
+        keywords = MOVIE_KEYWORDS
+    elif category_type == "tv":
+        keywords = TV_KEYWORDS
+    else:
+        keywords = VARIETY_KEYWORDS
     
     for source in sources:
         api = source.get("api", "")
@@ -51,15 +72,30 @@ def crawl_category(sources, category_type, target_count=50):
         if not api:
             continue
         
-        cat_ids = CATEGORY_MAP.get(category_type, {})
+        categories = fetch_categories(api)
+        time.sleep(0.3)
         
-        for cat_name, cat_id in cat_ids.items():
-            movies, _ = fetch_from_source(api, category_id=cat_id, page=1, limit=30)
+        matched_cats = [c for c in categories if match_category(c.get("type_name", ""), keywords)]
+        
+        if not matched_cats:
+            movies, _ = fetch_from_source(api, page=1, limit=50)
             for m in movies:
                 m["source_name"] = name
-                m["cat_name"] = cat_name
+                m["cat_name"] = "其他"
             all_movies.extend(movies)
-            time.sleep(0.3)
+        else:
+            for cat in matched_cats[:3]:
+                cat_id = cat.get("type_id")
+                cat_name = cat.get("type_name", "")
+                for pg in range(1, 4):
+                    movies, page_count = fetch_from_source(api, category_id=cat_id, page=pg, limit=20)
+                    for m in movies:
+                        m["source_name"] = name
+                        m["cat_name"] = cat_name
+                    all_movies.extend(movies)
+                    if pg >= page_count:
+                        break
+                    time.sleep(0.3)
     
     seen = set()
     unique = []
@@ -85,7 +121,7 @@ def enrich_with_rating(movies):
             if (i + 1) % 10 == 0:
                 print(f"    评分进度: {i+1}/{len(movies)}")
         enriched.append(m)
-        time.sleep(0.3)
+        time.sleep(0.5)
     return enriched
 
 def save_category(movies, filename):
