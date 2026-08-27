@@ -1,8 +1,52 @@
 [
   {
+    "vod_id": 25563,
+    "vod_name": "美凤有约",
+    "vod_pic": "https://img.wmdb.tv/movie/poster/1766569545326-f1959c.jpg",
+    "vod_year": "2004",
+    "vod_area": "台湾",
+    "vod_remarks": "更新至20260827期",
+    "vod_class": "港台综艺",
+    "rating": "",
+    "source": "量子资源"
+  },
+  {
+    "vod_id": 8928,
+    "vod_name": "第三调解室",
+    "vod_pic": "https://dbzy5.com/upload/vod/20250108-67/7ab6688179951f3bd77ca74170acf20c.jpg",
+    "vod_year": "2011",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第20260827期",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
+    "vod_id": 70364,
+    "vod_name": "男生女生向前冲 2025",
+    "vod_pic": "https://dbzy5.com/upload/vod/20250110-1/e9e8efabc21586328b3a2db1a3a17d55.jpg",
+    "vod_year": "2025",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第20260827期",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
+    "vod_id": 132357,
+    "vod_name": "爸爸当家 第五季",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260518-1/9d4346a136a90b224b6af231c70160c2.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第20260827期加更版：萌娃 &quot;胡闹厨房&quot; 营业",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
     "vod_id": 142937,
     "vod_name": "披荆斩棘 第六季",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/noposter.jpg",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260809-1/fbfb84b1ee0bca7e1521044c5b9294e2.jpg",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "20260827&quot;聚&quot; 乐部第 1 期：首次聚餐团建",
@@ -504,49 +548,5 @@
     "vod_class": "大陆综艺",
     "rating": "",
     "source": "光速资源"
-  },
-  {
-    "vod_id": 23826,
-    "vod_name": "11点热吵店",
-    "vod_pic": "https://img.lzipic.com/upload/vod/20250415-1/4d201897738630f14b2a0105772367d6.jpg",
-    "vod_year": "2020",
-    "vod_area": "台湾",
-    "vod_remarks": "更新至20260826期",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "量子资源"
-  },
-  {
-    "vod_id": 95803,
-    "vod_name": "小姐不熙娣",
-    "vod_pic": "https://img.lzipic.com/upload/vod/20250415-1/1646a52bbce9425ab7c177f890a8ffe4.jpg",
-    "vod_year": "2022",
-    "vod_area": "台湾",
-    "vod_remarks": "更新至20260826期",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "量子资源"
-  },
-  {
-    "vod_id": 153560,
-    "vod_name": "南美潮什么2",
-    "vod_pic": "https://img.lzipic.com/upload/vod/20260822-1/6009e560ecd7f9ba645112f73d212ca2.webp",
-    "vod_year": "2026",
-    "vod_area": "中国香港",
-    "vod_remarks": "更新至08期",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "量子资源"
-  },
-  {
-    "vod_id": 99162,
-    "vod_name": "高来高去",
-    "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260827-1/43abd35cc67f7e469597cd976256cf2f.jpg",
-    "vod_year": "2026",
-    "vod_area": "台湾",
-    "vod_remarks": "更新至第01集",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "非凡资源"
   }
 ]

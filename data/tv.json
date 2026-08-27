@@ -1,5 +1,38 @@
 [
   {
+    "vod_id": 154131,
+    "vod_name": "金色2026",
+    "vod_pic": "https://img.lzipic.com/upload/vod/20260825-1/be096c71d5fb307ee5230532fcaf418e.webp",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "更新至第06集",
+    "vod_class": "国产剧",
+    "rating": "",
+    "source": "量子资源"
+  },
+  {
+    "vod_id": 143815,
+    "vod_name": "时光代理人 第三季",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260814-1/85e74e0db5bea789ad7b4e817530c13b.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第4集",
+    "vod_class": "国产剧",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
+    "vod_id": 192690,
+    "vod_name": "金色",
+    "vod_pic": "https://hongniuzyimage.com/cover/0bb1ad66fce75ebdfbc109cedf683565.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第06集",
+    "vod_class": "国产剧",
+    "rating": "",
+    "source": "红牛资源"
+  },
+  {
     "vod_id": 192795,
     "vod_name": "方谬神探粤语版",
     "vod_pic": "https://hongniuzyimage.com/cover/d5248f7135215ed9d05a4a8b9db24d2a.jpg",
@@ -35,7 +68,7 @@
   {
     "vod_id": 144024,
     "vod_name": "我当寻龙魁首的那些年",
-    "vod_pic": "https://dbzy5.com/upload/vod/20260816-1/d753d830dc29985e32c84945e80b4bcd.jpg",
+    "vod_pic": "https://img.wmdb.tv/movie/poster/1786855012490-2dd5g6.webp",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "第21集",
@@ -68,7 +101,7 @@
   {
     "vod_id": 145793,
     "vod_name": "满分恋人",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1787641927662-06f462.webp",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260825-1/7516582fd1025aa1a6a2cc7f7396dad3.jpg",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "第13集",
@@ -134,7 +167,7 @@
   {
     "vod_id": 143913,
     "vod_name": "能有多大事",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/noposter.jpg",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260815-1/0721a82dba040b999f0cd23d69f7cebc.jpg",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "第23集",
@@ -167,7 +200,7 @@
   {
     "vod_id": 138478,
     "vod_name": "花样少男少女 第2季",
-    "vod_pic": "https://mtzy2.com/upload/vod/20260702-1/411ea1b21dd7aeb90922f916f0595b54.jpg",
+    "vod_pic": "https://img.wmdb.tv/movie/poster/1782963572824-7e0dd8.webp",
     "vod_year": "2026",
     "vod_area": "日本",
     "vod_remarks": "第10集",
@@ -200,7 +233,7 @@
   {
     "vod_id": 142924,
     "vod_name": "花开锦绣",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1786246518771-cde35e.webp",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260809-1/c21804ab514c604b2856856dc1f3d8fc.jpg",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "第36集完结",
@@ -266,24 +299,13 @@
   {
     "vod_id": 216869,
     "vod_name": "机场教士",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1787741504275-ce46b8.webp",
+    "vod_pic": "https://img.guangsuimage.com/cover/9a9abae62ac32d205c7e5c11fc362d95.jpg",
     "vod_year": "2026",
     "vod_area": "澳大利亚",
     "vod_remarks": "第8集完结",
     "vod_class": "欧美剧",
     "rating": "",
     "source": "光速资源"
-  },
-  {
-    "vod_id": 192690,
-    "vod_name": "金色",
-    "vod_pic": "https://hongniuzyimage.com/cover/0bb1ad66fce75ebdfbc109cedf683565.jpg",
-    "vod_year": "2026",
-    "vod_area": "中国大陆",
-    "vod_remarks": "第05集",
-    "vod_class": "国产剧",
-    "rating": "",
-    "source": "红牛资源"
   },
   {
     "vod_id": 192127,
@@ -295,17 +317,6 @@
     "vod_class": "国产剧",
     "rating": "",
     "source": "红牛资源"
-  },
-  {
-    "vod_id": 154131,
-    "vod_name": "金色2026",
-    "vod_pic": "https://img.lzipic.com/upload/vod/20260825-1/be096c71d5fb307ee5230532fcaf418e.webp",
-    "vod_year": "2026",
-    "vod_area": "中国大陆",
-    "vod_remarks": "更新至第05集",
-    "vod_class": "国产剧",
-    "rating": "",
-    "source": "量子资源"
   },
   {
     "vod_id": 216868,
@@ -398,7 +409,7 @@
   {
     "vod_id": 153414,
     "vod_name": "特战英雄榜",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1654947241796-70446d.jpg",
+    "vod_pic": "https://img.lzipic.com/upload/vod/20260821-1/84fdbac5400dc3761ef9a9ae22b5ef1e.webp",
     "vod_year": "2018",
     "vod_area": "中国大陆",
     "vod_remarks": "更新至第11集",
@@ -519,7 +530,7 @@
   {
     "vod_id": 143539,
     "vod_name": "侠探杰克 第四季",
-    "vod_pic": "https://dbzy5.com/upload/vod/20260812-1/a1dbfe80b153247210d236752558e660.jpg",
+    "vod_pic": "https://img.wmdb.tv/movie/poster/1786529564297-631206.webp",
     "vod_year": "2026",
     "vod_area": "美国",
     "vod_remarks": "第5集",
@@ -530,23 +541,12 @@
   {
     "vod_id": 139073,
     "vod_name": "尝试 第五季",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1783492289115-701g2a.webp",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260708-1/544e31b4e60193d1d9ecd1952b100685.jpg",
     "vod_year": "2026",
     "vod_area": "英国",
     "vod_remarks": "第8集",
     "vod_class": "欧美剧",
     "rating": "",
     "source": "豆瓣资源"
-  },
-  {
-    "vod_id": 216442,
-    "vod_name": "平凡的乔第二季",
-    "vod_pic": "https://img.guangsuimage.com/cover/318ddd8bf86d4ecef65d7df547d1b271.jpg",
-    "vod_year": "2026",
-    "vod_area": "美国",
-    "vod_remarks": "第3集",
-    "vod_class": "欧美剧",
-    "rating": "",
-    "source": "光速资源"
   }
 ]
