@@ -36,8 +36,7 @@ def generate():
             "type": 4,
             "api": f"{GITEE_RAW}/data/movies.json",
             "searchable": 0,
-            "quickSearch": 0,
-            "group": "📊 精选排行"
+            "quickSearch": 0
         },
         {
             "key": "tv_rank",
@@ -45,8 +44,7 @@ def generate():
             "type": 4,
             "api": f"{GITEE_RAW}/data/tv.json",
             "searchable": 0,
-            "quickSearch": 0,
-            "group": "📊 精选排行"
+            "quickSearch": 0
         },
         {
             "key": "variety_rank",
@@ -54,8 +52,7 @@ def generate():
             "type": 4,
             "api": f"{GITEE_RAW}/data/variety.json",
             "searchable": 0,
-            "quickSearch": 0,
-            "group": "📊 精选排行"
+            "quickSearch": 0
         }
     ]
     
@@ -66,8 +63,7 @@ def generate():
             "type": 1,
             "api": source["api"],
             "searchable": 1,
-            "quickSearch": 1,
-            "group": "🔍 搜索全网"
+            "quickSearch": 1
         })
     
     config = {
@@ -80,10 +76,10 @@ def generate():
         ],
         "lives": [
             {
-            "name": "国内直播",
-            "type": 0,
-            "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-            "playerType": 1
+                "name": "国内直播",
+                "type": 0,
+                "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+                "playerType": 1
             }
         ],
         "_lastUpdate": datetime.now().isoformat(),
