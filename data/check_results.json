@@ -2,64 +2,61 @@
   {
     "name": "豆瓣资源",
     "status": "ok",
-    "latency": 1277,
+    "latency": 707,
     "type": "cms"
   },
   {
     "name": "光速资源",
     "status": "ok",
-    "latency": 624,
+    "latency": 388,
     "type": "cms"
   },
   {
     "name": "红牛资源",
     "status": "ok",
-    "latency": 510,
+    "latency": 462,
     "type": "cms"
   },
   {
     "name": "茅台资源",
     "status": "ok",
-    "latency": 1160,
+    "latency": 1955,
     "type": "cms"
   },
   {
     "name": "量子资源",
     "status": "ok",
-    "latency": 1022,
+    "latency": 666,
     "type": "cms"
   },
   {
     "name": "非凡资源",
     "status": "ok",
-    "latency": 1597,
-    "type": "cms"
-  },
-  {
-    "name": "卧龙资源",
-    "status": "error: HTTPSConnectionPool(host='coll",
+    "latency": 1511,
     "type": "cms"
   },
   {
     "name": "索尼资源",
     "status": "ok",
-    "latency": 222,
+    "latency": 399,
     "type": "cms"
   },
   {
-    "name": "闪电资源",
+    "name": "暴风资源",
     "status": "ok",
-    "latency": 479,
+    "latency": 491,
     "type": "cms"
   },
   {
-    "name": "天堂资源",
-    "status": "error: HTTPConnectionPool(host='vipmv",
+    "name": "速播资源",
+    "status": "ok",
+    "latency": 1488,
     "type": "cms"
   },
   {
-    "name": "小雅网盘",
-    "status": "no_api",
-    "type": "pan"
+    "name": "ck资源",
+    "status": "ok",
+    "latency": 350,
+    "type": "cms"
   }
 ]

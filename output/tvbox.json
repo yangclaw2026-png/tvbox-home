@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghfast.top/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
+  "spider": "https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
   "sites": [
     {
       "key": "movie_rank",
@@ -84,15 +84,6 @@
     },
     {
       "key": "cms_6",
-      "name": "🔍 卧龙资源",
-      "type": 1,
-      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
-    },
-    {
-      "key": "cms_7",
       "name": "🔍 索尼资源",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/",
@@ -101,19 +92,28 @@
       "group": "🔍 搜索全网"
     },
     {
-      "key": "cms_8",
-      "name": "🔍 闪电资源",
+      "key": "cms_7",
+      "name": "🔍 暴风资源",
       "type": 1,
-      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_8",
+      "name": "🔍 速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "group": "🔍 搜索全网"
     },
     {
       "key": "cms_9",
-      "name": "🔍 天堂资源",
+      "name": "🔍 ck资源",
       "type": 1,
-      "api": "http://vipmv.cc/api.php/provide/vod/",
+      "api": "https://ckzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "group": "🔍 搜索全网"
@@ -156,15 +156,15 @@
     {
       "name": "国内直播",
       "type": 0,
-      "url": "https://raw.gitmirror.com/FanMingming/live/main/tv/m3u/ipv6.m3u",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-27T11:14:53.049173",
+  "_lastUpdate": "2026-08-27T12:16:55.429637",
   "_stats": {
-    "movies": 50,
-    "tv": 50,
-    "variety": 50,
+    "movies": 4,
+    "tv": 4,
+    "variety": 4,
     "sources": 10
   }
 }
