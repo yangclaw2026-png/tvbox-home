@@ -7,8 +7,7 @@
       "type": 4,
       "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/movies.json",
       "searchable": 0,
-      "quickSearch": 0,
-      "group": "📊 精选排行"
+      "quickSearch": 0
     },
     {
       "key": "tv_rank",
@@ -16,8 +15,7 @@
       "type": 4,
       "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/tv.json",
       "searchable": 0,
-      "quickSearch": 0,
-      "group": "📊 精选排行"
+      "quickSearch": 0
     },
     {
       "key": "variety_rank",
@@ -25,8 +23,7 @@
       "type": 4,
       "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/variety.json",
       "searchable": 0,
-      "quickSearch": 0,
-      "group": "📊 精选排行"
+      "quickSearch": 0
     },
     {
       "key": "cms_0",
@@ -34,8 +31,7 @@
       "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_1",
@@ -43,8 +39,7 @@
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_2",
@@ -52,8 +47,7 @@
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_3",
@@ -61,8 +55,7 @@
       "type": 1,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_4",
@@ -70,8 +63,7 @@
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_5",
@@ -79,8 +71,7 @@
       "type": 1,
       "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_6",
@@ -88,8 +79,7 @@
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_7",
@@ -97,8 +87,7 @@
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_8",
@@ -106,8 +95,7 @@
       "type": 1,
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     },
     {
       "key": "cms_9",
@@ -115,8 +103,7 @@
       "type": 1,
       "api": "https://ckzy.me/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "group": "🔍 搜索全网"
+      "quickSearch": 1
     }
   ],
   "parses": [
@@ -160,7 +147,7 @@
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-27T12:16:55.429637",
+  "_lastUpdate": "2026-08-27T12:31:07.640290",
   "_stats": {
     "movies": 4,
     "tv": 4,
