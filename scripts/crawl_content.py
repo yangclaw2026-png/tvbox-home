@@ -12,6 +12,7 @@ WMDB_API = "https://api.wmdb.tv/api/v1/movie/search"
 MOVIE_KEYWORDS = ["电影", "剧情", "动作", "喜剧", "爱情", "科幻", "恐怖", "战争", "动画", "犯罪", "悬疑", "冒险", "奇幻"]
 TV_KEYWORDS = ["国产剧", "港台剧", "日韩剧", "欧美剧", "海外剧", "连续剧", "电视剧", "剧集"]
 VARIETY_KEYWORDS = ["综艺", "真人秀", "脱口秀", "选秀", "音乐", "访谈"]
+ADULT_KEYWORDS = ["伦理", "福利", "制服诱惑", "丝袜", "诱惑", "AV", "色情", "成人", "SM", "援交", "大尺度", "夜撩", "春宵", "欲女", "偷情", "私密", "激情", "辣妹"]
 
 def fetch_categories(api):
     try:
@@ -24,6 +25,12 @@ def fetch_categories(api):
 
 def match_category(cat_name, keywords):
     for kw in keywords:
+        if kw in cat_name:
+            return True
+    return False
+
+def is_adult_category(cat_name):
+    for kw in ADULT_KEYWORDS:
         if kw in cat_name:
             return True
     return False
@@ -47,8 +54,6 @@ def fetch_rating(title, retries=2):
                                timeout=8, headers={"User-Agent": "Mozilla/5.0"})
             result = resp.json()
             items = result.get("data", [])
-            if attempt == 0:
-                print(f"  [DEBUG] '{title}' -> items={len(items) if items else 0}")
             if items and len(items) > 0:
                 item = items[0]
                 poster = ""
@@ -59,13 +64,11 @@ def fetch_rating(title, retries=2):
                     "rating": item.get("doubanRating", ""),
                     "poster": poster
                 }
-        except Exception as e:
-            if attempt == 0:
-                print(f"  [DEBUG] '{title}' -> ERROR: {e}")
+        except:
             if attempt < retries - 1:
                 time.sleep(1)
     return {}
-    
+
 def crawl_category(sources, category_type, target_count=50):
     all_movies = []
     
@@ -85,10 +88,13 @@ def crawl_category(sources, category_type, target_count=50):
         categories = fetch_categories(api)
         time.sleep(0.3)
         
-        matched_cats = [c for c in categories if match_category(c.get("type_name", ""), keywords)]
+        matched_cats = [c for c in categories 
+                       if match_category(c.get("type_name", ""), keywords) 
+                       and not is_adult_category(c.get("type_name", ""))]
         
         if not matched_cats:
             movies, _ = fetch_from_source(api, page=1, limit=50)
+            movies = [m for m in movies if not is_adult_category(m.get("vod_name", ""))]
             for m in movies:
                 m["source_name"] = name
                 m["cat_name"] = "其他"
@@ -99,6 +105,7 @@ def crawl_category(sources, category_type, target_count=50):
                 cat_name = cat.get("type_name", "")
                 for pg in range(1, 4):
                     movies, page_count = fetch_from_source(api, category_id=cat_id, page=pg, limit=20)
+                    movies = [m for m in movies if not is_adult_category(m.get("vod_name", ""))]
                     for m in movies:
                         m["source_name"] = name
                         m["cat_name"] = cat_name
