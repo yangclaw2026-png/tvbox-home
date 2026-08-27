@@ -36,7 +36,8 @@ def generate():
             "type": 4,
             "api": f"{GITHUB_RAW}/data/movies.json",
             "searchable": 0,
-            "quickSearch": 0
+            "quickSearch": 0,
+            "group": "电影排行"
         },
         {
             "key": "tv_rank",
@@ -44,7 +45,8 @@ def generate():
             "type": 4,
             "api": f"{GITHUB_RAW}/data/tv.json",
             "searchable": 0,
-            "quickSearch": 0
+            "quickSearch": 0,
+            "group": "电视剧排行"
         },
         {
             "key": "variety_rank",
@@ -52,7 +54,8 @@ def generate():
             "type": 4,
             "api": f"{GITHUB_RAW}/data/variety.json",
             "searchable": 0,
-            "quickSearch": 0
+            "quickSearch": 0,
+            "group": "综艺排行"
         }
     ]
     
