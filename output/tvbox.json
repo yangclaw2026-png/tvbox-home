@@ -2,31 +2,13 @@
   "spider": "https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
   "sites": [
     {
-      "key": "movie_rank",
-      "name": "🎬 电影排行",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/movies.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "group": "电影排行"
-    },
-    {
-      "key": "tv_rank",
-      "name": "📺 电视剧排行",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/tv.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "group": "电视剧排行"
-    },
-    {
-      "key": "variety_rank",
-      "name": "🎤 综艺排行",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/data/variety.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "group": "综艺排行"
+      "key": "ranking",
+      "name": "📊 豆瓣榜单",
+      "type": 1,
+      "api": "https://tvbox-api.yangclaw2026.workers.dev/api",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "cms_0",
@@ -99,14 +81,6 @@
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "cms_9",
-      "name": "🔍 ck资源",
-      "type": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
     }
   ],
   "parses": [
@@ -150,11 +124,11 @@
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-27T13:07:31.645420",
+  "_lastUpdate": "2026-08-27T13:42:03.675971",
   "_stats": {
     "movies": 4,
     "tv": 4,
     "variety": 4,
-    "sources": 10
+    "sources": 9
   }
 }
