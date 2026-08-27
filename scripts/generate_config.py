@@ -13,6 +13,8 @@ GITHUB_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/mai
 
 SPIDER_URL = f"https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
 
+WORKER_URL = "https://tvbox-api.yangclaw2026.workers.dev/api"
+
 def load_category(filename):
     filepath = DATA_DIR / filename
     if filepath.exists():
@@ -31,31 +33,13 @@ def generate():
     
     sites = [
         {
-            "key": "movie_rank",
-            "name": "🎬 电影排行",
-            "type": 4,
-            "api": f"{GITHUB_RAW}/data/movies.json",
-            "searchable": 0,
-            "quickSearch": 0,
-            "group": "电影排行"
-        },
-        {
-            "key": "tv_rank",
-            "name": "📺 电视剧排行",
-            "type": 4,
-            "api": f"{GITHUB_RAW}/data/tv.json",
-            "searchable": 0,
-            "quickSearch": 0,
-            "group": "电视剧排行"
-        },
-        {
-            "key": "variety_rank",
-            "name": "🎤 综艺排行",
-            "type": 4,
-            "api": f"{GITHUB_RAW}/data/variety.json",
-            "searchable": 0,
-            "quickSearch": 0,
-            "group": "综艺排行"
+            "key": "ranking",
+            "name": "📊 豆瓣榜单",
+            "type": 1,
+            "api": WORKER_URL,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         }
     ]
     
@@ -98,9 +82,7 @@ def generate():
     config_file.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
     print(f"配置生成完成:")
-    print(f"  电影排行: {len(movies)} 部")
-    print(f"  电视剧排行: {len(tv)} 部")
-    print(f"  综艺排行: {len(variety)} 部")
+    print(f"  排行榜: 指向 Worker API")
     print(f"  CMS源: {len(cms_sources)} 个")
     print(f"  输出: {config_file}")
 
