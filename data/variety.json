@@ -1,8 +1,41 @@
 [
   {
+    "vod_id": 142937,
+    "vod_name": "披荆斩棘 第六季",
+    "vod_pic": "https://img.wmdb.tv/movie/poster/noposter.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "20260827&quot;聚&quot; 乐部第 1 期：首次聚餐团建",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
+    "vod_id": 141387,
+    "vod_name": "心动双重奏",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260729-1/106d381299420ada7be24ab9062d0ad1.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "20260826心动日记：孟嘉烨卫中原谈",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
+    "vod_id": 137127,
+    "vod_name": "中餐厅 第十季",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260621-1/1f479808e87a84294fcb73ab9344ec7f.jpg",
+    "vod_year": "2026",
+    "vod_area": "中国大陆",
+    "vod_remarks": "第20260827期合伙人手记：黄晓明沉浸式帮厨",
+    "vod_class": "大陆综艺",
+    "rating": "",
+    "source": "豆瓣资源"
+  },
+  {
     "vod_id": 143803,
     "vod_name": "不想睡的星期五",
-    "vod_pic": "https://img.wmdb.tv/movie/poster/1786598739462-3a7e53.webp",
+    "vod_pic": "https://dbzy5.com/upload/vod/20260814-1/8b932eba6c194379b0fd036fb01b5c32.jpg",
     "vod_year": "2026",
     "vod_area": "中国大陆",
     "vod_remarks": "第20260827期 心愿宅宅乐：李小冉唐艺昕跨队联手",
@@ -264,17 +297,6 @@
     "source": "光速资源"
   },
   {
-    "vod_id": 137466,
-    "vod_name": "中餐厅 第十季",
-    "vod_pic": "https://mtzy2.com/upload/vod/20260623-1/318d09301c4306a0cc8b65937ea7a35f.jpg",
-    "vod_year": "2026",
-    "vod_area": "中国大陆",
-    "vod_remarks": "第20260827期",
-    "vod_class": "大陆综艺",
-    "rating": "",
-    "source": "茅台资源"
-  },
-  {
     "vod_id": 177507,
     "vod_name": "文明之旅第三季",
     "vod_pic": "https://img.guangsuimage.com/cover/770828db44083a6e5bfe8429a7a87bcb.jpg",
@@ -523,28 +545,6 @@
     "vod_year": "2026",
     "vod_area": "台湾",
     "vod_remarks": "更新至第01集",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "非凡资源"
-  },
-  {
-    "vod_id": 98976,
-    "vod_name": "双星家游园",
-    "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260810-1/5ff64509cfaae5985f7bbbbf5195c8f8.jpg",
-    "vod_year": "2026",
-    "vod_area": "台湾",
-    "vod_remarks": "更新至第05集",
-    "vod_class": "港台综艺",
-    "rating": "",
-    "source": "非凡资源"
-  },
-  {
-    "vod_id": 98818,
-    "vod_name": "百分百娱乐",
-    "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260727-1/17e109e8b09d34dd0c22befec9bc24ad.jpg",
-    "vod_year": "2026",
-    "vod_area": "台湾",
-    "vod_remarks": "更新至第20260825期",
     "vod_class": "港台综艺",
     "rating": "",
     "source": "非凡资源"
