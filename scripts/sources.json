@@ -44,11 +44,6 @@
       "name": "速播资源",
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "type": "cms"
-    },
-    {
-      "name": "ck资源",
-      "api": "https://ckzy.me/api.php/provide/vod/",
-      "type": "cms"
     }
   ]
 }
