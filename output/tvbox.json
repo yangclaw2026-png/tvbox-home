@@ -1,0 +1,170 @@
+{
+  "spider": "https://ghfast.top/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
+  "sites": [
+    {
+      "key": "movie_rank",
+      "name": "🎬 电影排行",
+      "type": 4,
+      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/movies.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "group": "📊 精选排行"
+    },
+    {
+      "key": "tv_rank",
+      "name": "📺 电视剧排行",
+      "type": 4,
+      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/tv.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "group": "📊 精选排行"
+    },
+    {
+      "key": "variety_rank",
+      "name": "🎤 综艺排行",
+      "type": 4,
+      "api": "https://gitee.com/angus66669999/tvbox-home/raw/master/data/variety.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "group": "📊 精选排行"
+    },
+    {
+      "key": "cms_0",
+      "name": "🔍 豆瓣资源",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_1",
+      "name": "🔍 光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_2",
+      "name": "🔍 红牛资源",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_3",
+      "name": "🔍 茅台资源",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_4",
+      "name": "🔍 量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_5",
+      "name": "🔍 非凡资源",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_6",
+      "name": "🔍 卧龙资源",
+      "type": 1,
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_7",
+      "name": "🔍 索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_8",
+      "name": "🔍 闪电资源",
+      "type": 1,
+      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    },
+    {
+      "key": "cms_9",
+      "name": "🔍 天堂资源",
+      "type": 1,
+      "api": "http://vipmv.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "group": "🔍 搜索全网"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "全能解析1",
+      "type": 1,
+      "url": "https://jx.777jiexi.com/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "mgtv",
+          "qiyi",
+          "youku"
+        ]
+      }
+    },
+    {
+      "name": "全能解析2",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "mgtv",
+          "qiyi",
+          "youku"
+        ]
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "国内直播",
+      "type": 0,
+      "url": "https://raw.gitmirror.com/FanMingming/live/main/tv/m3u/ipv6.m3u",
+      "playerType": 1
+    }
+  ],
+  "_lastUpdate": "2026-08-27T09:24:26.523432",
+  "_stats": {
+    "movies": 7,
+    "tv": 50,
+    "variety": 50,
+    "sources": 10
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "豆瓣资源",
+    "status": "ok",
+    "latency": 1385,
+    "type": "cms"
+  },
+  {
+    "name": "光速资源",
+    "status": "ok",
+    "latency": 569,
+    "type": "cms"
+  },
+  {
+    "name": "红牛资源",
+    "status": "ok",
+    "latency": 260,
+    "type": "cms"
+  },
+  {
+    "name": "茅台资源",
+    "status": "ok",
+    "latency": 1543,
+    "type": "cms"
+  },
+  {
+    "name": "量子资源",
+    "status": "ok",
+    "latency": 708,
+    "type": "cms"
+  },
+  {
+    "name": "非凡资源",
+    "status": "ok",
+    "latency": 1488,
+    "type": "cms"
+  },
+  {
+    "name": "卧龙资源",
+    "status": "error: HTTPSConnectionPool(host='coll",
+    "type": "cms"
+  },
+  {
+    "name": "索尼资源",
+    "status": "ok",
+    "latency": 294,
+    "type": "cms"
+  },
+  {
+    "name": "闪电资源",
+    "status": "ok",
+    "latency": 247,
+    "type": "cms"
+  },
+  {
+    "name": "天堂资源",
+    "status": "error: HTTPConnectionPool(host='vipmv",
+    "type": "cms"
+  },
+  {
+    "name": "小雅网盘",
+    "status": "no_api",
+    "type": "pan"
+  }
+]
