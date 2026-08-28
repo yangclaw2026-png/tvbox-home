@@ -156,36 +156,6 @@
       "changeable": 0
     },
     {
-      "key": "drpy_Auete",
-      "name": "🏝Auete┃多线",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/Auete.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_cokemv",
-      "name": "🍫cokemv┃高清",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/cokemv.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_voflix",
-      "name": "🌊voflix┃热播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/voflix.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "drpy_爱看",
       "name": "👀爱看┃热播",
       "type": 3,
@@ -226,6 +196,16 @@
       "changeable": 0
     },
     {
+      "key": "drpy_新6V",
+      "name": "🧲新6V┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/新6V.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "drpy_咕咕动漫",
       "name": "🦉咕咕动漫",
       "type": 3,
@@ -241,16 +221,6 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/巴士动漫.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_新6V",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/新6V.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -281,6 +251,36 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/吃瓜看球.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_Auete",
+      "name": "🏝Auete┃多线",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/Auete.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_cokemv",
+      "name": "🍫cokemv┃高清",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/cokemv.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_voflix",
+      "name": "🌊voflix┃热播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/voflix.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -438,7 +438,7 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-28T12:32:27.268508",
+  "_lastUpdate": "2026-08-28T12:35:02.616252",
   "_stats": {
     "drpy_sources": 14,
     "jar_sources": 10,

@@ -18,6 +18,7 @@ def generate():
         {"key":"jar_至臻","name":"💎至臻┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"},
         {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
         {"key":"jar_荐片","name":"🥝荐片┃磁力","type":3,"api":"csp_Jianpian","playerType":1,"ext":"http://api2.rinhome.com"},
+        
         {"key":"jar2_玩偶哥哥","name":"📦玩偶哥哥┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
         {"key":"jar2_木偶","name":"📦木偶┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://mogg.top/","danMu":"弹"}},
         {"key":"jar2_至臻","name":"📦至臻┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.zz4k.com/","danMu":"弹"}},
@@ -25,20 +26,21 @@ def generate():
         {"key":"jar2_荐片","name":"📦荐片┃备份","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
         
         {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/快看.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":"./js/Auete.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":"./js/cokemv.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/voflix.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_爱看","name":"👀爱看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/爱看.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_酷云77","name":"☁️酷云77┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/酷云77.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_南瓜影视","name":"🎃南瓜影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/南瓜影视.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_量子影视","name":"⚛️量子影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/量子影视.js","searchable":1,"quickSearch":1,"changeable":0},
         
+        {"key":"drpy_新6V","name":"🧲新6V┃磁力","type":3,"api":DRPY_RUNTIME,"ext":"./js/新6V.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_咕咕动漫","name":"🦉咕咕动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/咕咕动漫.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_巴士动漫","name":"🚌巴士动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/巴士动漫.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_新6V","name":"🧲新6V┃磁力","type":3,"api":DRPY_RUNTIME,"ext":"./js/新6V.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_八八看球","name":"⚽八八看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/八八看球.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_多多回放","name":"🏀多多回放","type":3,"api":DRPY_RUNTIME,"ext":"./js/多多回放.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_吃瓜看球","name":"🏐吃瓜看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/吃瓜看球.js","searchable":1,"quickSearch":1,"changeable":0},
+        
+        {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":"./js/Auete.js","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":"./js/cokemv.js","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/voflix.js","searchable":1,"quickSearch":1,"changeable":0},
     ]
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
