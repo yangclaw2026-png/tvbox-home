@@ -66,6 +66,39 @@ def generate():
             {"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
             {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url="},
         ],
+        "rules": [
+            {
+                "name":"磁力广告屏蔽",
+                "hosts":["magnet"],
+                "regex":["更多","社区","最新","直播","更新","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"],
+                "script":[]
+            },
+            {
+                "name":"暴风广告",
+                "hosts":["bfzy"],
+                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"],
+                "script":[]
+            },
+            {
+                "name":"量子广告",
+                "hosts":["vip.lz","hd.lz","v.cdnlz"],
+                "regex":["18.5333"],
+                "script":[]
+            },
+            {
+                "name":"非凡广告",
+                "hosts":["vip.ffzy","hd.ffzy"],
+                "regex":["25.1"],
+                "script":[]
+            },
+            {
+                "name":"广告屏蔽",
+                "hosts":["*"],
+                "regex":[".*\\.ad\\..*",".*\\.ads\\..*",".*\\.广告\\..*"],
+                "script":[]
+            }
+        ],
+        "ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"],
         "lives": [
             {"name":"国内直播","type":0,"url":"https://iptv-org.github.io/iptv/countries/cn.m3u","playerType":2}
         ],
