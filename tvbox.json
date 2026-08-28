@@ -145,66 +145,6 @@
       "changeable": 0
     },
     {
-      "key": "drpy_新6V",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/新6V.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_咕咕动漫",
-      "name": "🦉咕咕动漫",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/咕咕动漫.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_巴士动漫",
-      "name": "🚌巴士动漫",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/巴士动漫.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_八八看球",
-      "name": "⚽八八看球",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/八八看球.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_多多回放",
-      "name": "🏀多多回放",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/多多回放.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_吃瓜看球",
-      "name": "🏐吃瓜看球",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/吃瓜看球.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "drpy_Auete",
       "name": "🏝Auete┃多线",
       "type": 3,
