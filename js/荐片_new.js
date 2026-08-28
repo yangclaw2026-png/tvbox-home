@@ -4,6 +4,20 @@
  * https://github.com/FongMi/Release/tree/main/apk
  */
 
+var imghost = 'https://static.ztcuc.com';
+
+async function init(cfg) {
+    try {
+        let res = await request(HOST + '/api/appAuthConfig');
+        let config = JSON.parse(res);
+        if (config.data && config.data.imgDomain) {
+            imghost = 'https://' + config.data.imgDomain;
+        }
+    } catch (e) {
+        log('获取图片域名失败:' + e.message);
+    }
+}
+
 var rule = {
 	title: '荐片',
 	host: 'https://api.ztcgi.com',
@@ -56,7 +70,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: 'https://api.ztcgi.com' + it.tvimg,
+                img: imghost + it.tvimg,
                 desc: it.title,
                 url: it.id
             })
@@ -77,7 +91,7 @@ var rule = {
             html.forEach(it => {
                 d.push({
                     title: it.title,
-                    img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.path,
+                    img: it.tvimg ? (imghost + it.tvimg) : it.path,
                     desc: it.score ? ('⭐' + it.score) : '',
                     url: it.id
                 })
@@ -86,7 +100,7 @@ var rule = {
             html.list.forEach(it => {
                 d.push({
                     title: it.title,
-                    img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.path,
+                    img: it.tvimg ? (imghost + it.tvimg) : it.path,
                     desc: it.score ? ('⭐' + it.score) : '',
                     url: it.id
                 })
@@ -109,7 +123,7 @@ var rule = {
             VOD = {
                 vod_id: node.id,
                 vod_name: node.title,
-                vod_pic: node.tvimg ? ('https://api.ztcgi.com' + node.tvimg) : node.thumbnail,
+                vod_pic: node.tvimg ? (imghost + node.tvimg) : node.thumbnail,
                 type_name: node.types && node.types[0] ? node.types[0].name : '',
                 vod_year: node.year ? (typeof node.year === 'object' ? node.year.title : node.year) : '',
                 vod_area: node.area ? (typeof node.area === 'object' ? node.area.title : node.area) : '',
@@ -171,7 +185,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.thumbnail,
+                img: it.tvimg ? (imghost + it.tvimg) : it.thumbnail,
                 desc: it.score ? ('⭐' + it.score) : '',
                 url: it.id
             })
