@@ -16,8 +16,28 @@
       "changeable": 0
     },
     {
+      "key": "drpy_玩偶哥哥",
+      "name": "👽玩偶哥哥┃4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/玩偶哥哥.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_荐片",
+      "name": "🥝荐片┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/荐片_new.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "jar_玩偶哥哥",
-      "name": "👽玩偶哥哥┃4K弹幕",
+      "name": "👽玩偶哥哥┃4K弹幕备份",
       "type": 3,
       "api": "csp_WoGGGuard",
       "timeout": 30,
@@ -32,27 +52,6 @@
       }
     },
     {
-      "key": "jar_木偶",
-      "name": "🪆木偶┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"
-    },
-    {
-      "key": "jar_至臻",
-      "name": "💎至臻┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"
-    },
-    {
       "key": "jar_多多",
       "name": "🎯多多┃4K弹幕",
       "type": 3,
@@ -62,14 +61,6 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
-    },
-    {
-      "key": "jar_荐片",
-      "name": "🥝荐片┃磁力",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "ext": "http://api2.rinhome.com"
     },
     {
       "key": "jar2_玩偶哥哥",
@@ -88,38 +79,6 @@
       }
     },
     {
-      "key": "jar2_木偶",
-      "name": "📦木偶┃4K备份",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://mogg.top/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "jar2_至臻",
-      "name": "📦至臻┃4K备份",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.zz4k.com/",
-        "danMu": "弹"
-      }
-    },
-    {
       "key": "jar2_多多",
       "name": "📦多多┃4K备份",
       "type": 3,
@@ -134,16 +93,6 @@
         "siteUrl": "https://www.duoduokan.com/",
         "danMu": "弹"
       }
-    },
-    {
-      "key": "jar2_荐片",
-      "name": "📦荐片┃备份",
-      "type": 3,
-      "api": "csp_JPJGuard",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
     },
     {
       "key": "drpy_快看",

@@ -6,14 +6,14 @@
 
 var rule = {
 	title: '荐片',
-	host: 'http://api2.rinhome.com',
-	homeUrl: '/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
+	host: 'https://api.ztcgi.com',
+	homeUrl: '/api/slide/list?pos_id=88',//网站的首页链接,用于分类获取和推荐获取
 	// url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
 	class_name: '全部&电影&电视剧&动漫&综艺',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
 	class_url: '0&1&2&3&4',
-	detailUrl: '/api/node/detail?channel=wandoujia&token=&id=fyid',//二级详情拼接链接(json格式用)
-	searchUrl: '/api/video/search?key=**&page=fypage',
+	detailUrl: '/api/video/detailv2?id=fyid',//二级详情拼接链接(json格式用)
+	searchUrl: '/api/v2/search/videoV2?key=**&page=fypage',
 	searchable: 2,
 	quickSearch: 0,
 	filterable: 1,
@@ -52,12 +52,12 @@ var rule = {
 	推荐: `js:
         var d = [];
         let html = request(input);
-        html = JSON.parse(html).data[0].video;
+        html = JSON.parse(html).data;
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.path,
-                desc: it.playlist.title + ' ⭐' + it.score,
+                img: 'https://api.ztcgi.com' + it.tvimg,
+                desc: it.title,
                 url: it.id
             })
         });
@@ -68,23 +68,35 @@ var rule = {
 		cateObj.tid = cateObj.tid+'';
         if (cateObj.tid.endsWith('_clicklink')) {
             cateObj.tid = cateObj.tid.split('_')[0];
-            input = HOST + '/api/video/search?key=' + cateObj.tid + '&page=' + + MY_PAGE;
+            input = HOST + '/api/v2/search/videoV2?key=' + cateObj.tid + '&page=' + + MY_PAGE;
         }
         var d = [];
         let html = request(input);
         html = JSON.parse(html).data;
-        html.forEach(it => {
-            d.push({
-                title: it.title,
-                img: it.thumbnail||it.path,
-                desc: (it.mask || it.playlist.title) + ' ⭐' + it.score,
-                url: it.id
-            })
-        });
+        if (Array.isArray(html)) {
+            html.forEach(it => {
+                d.push({
+                    title: it.title,
+                    img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.path,
+                    desc: it.score ? ('⭐' + it.score) : '',
+                    url: it.id
+                })
+            });
+        } else if (html.list) {
+            html.list.forEach(it => {
+                d.push({
+                    title: it.title,
+                    img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.path,
+                    desc: it.score ? ('⭐' + it.score) : '',
+                    url: it.id
+                })
+            });
+        }
         setResult(d);
     `,
 	二级: `js:
         function getLink(data) {
+            if (!data || !Array.isArray(data)) return '';
             let link = data.map(it => {
                 return '[a=cr:' + JSON.stringify({'id':it.name+'_clicklink','name':it.name}) + '/]' + it.name + '[/a]'
             }).join(', ');
@@ -97,25 +109,25 @@ var rule = {
             VOD = {
                 vod_id: node.id,
                 vod_name: node.title,
-                vod_pic: node.thumbnail,
-                type_name: node.types[0].name,
-                vod_year: node.year.title,
-                vod_area: node.area.title,
-                vod_remarks: node.score,
+                vod_pic: node.tvimg ? ('https://api.ztcgi.com' + node.tvimg) : node.thumbnail,
+                type_name: node.types && node.types[0] ? node.types[0].name : '',
+                vod_year: node.year ? node.year.title : '',
+                vod_area: node.area ? node.area.title : '',
+                vod_remarks: node.score || '',
                 vod_actor: getLink(node.actors),
                 vod_director: getLink(node.directors),
-                vod_content: node.description.strip()
+                vod_content: node.description ? node.description.strip() : ''
             };
             if (typeof play_url === 'undefined') {
                 var play_url = ''
             }
             let playMap = {};
-			if (node.have_ftp_ur == 1) {
+			if (node.have_ftp_ur == 1 && node.new_ftp_list) {
 				playMap["边下边播超清版"] = node.new_ftp_list.map(it => {
 					return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
 				}).join('#');
 			}
-			if (node.have_m3u8_ur == 1) {
+			if (node.have_m3u8_ur == 1 && node.new_m3u8_list) {
 				playMap["在线点播普清版"] = node.new_m3u8_list.map(it => {
 					return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
 				}).join('#');
@@ -137,11 +149,12 @@ var rule = {
         var d = [];
         let html = request(input);
         html = JSON.parse(html).data;
+        if (html.list) html = html.list;
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.thumbnail,
-                desc: it.mask + ' ⭐' + it.score,
+                img: it.tvimg ? ('https://api.ztcgi.com' + it.tvimg) : it.thumbnail,
+                desc: it.score ? ('⭐' + it.score) : '',
                 url: it.id
             })
         });
