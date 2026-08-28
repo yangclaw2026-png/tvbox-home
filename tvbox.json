@@ -41,6 +41,54 @@
       }
     },
     {
+      "key": "cms_光速资源",
+      "name": "📺光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "cms_红牛资源",
+      "name": "📺红牛资源",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "cms_量子资源",
+      "name": "📺量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "cms_非凡资源",
+      "name": "📺非凡资源",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "cms_暴风资源",
+      "name": "📺暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "cms_速播资源",
+      "name": "📺速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "YGP",
       "name": "🚀叨观荐影┃预告片",
       "type": 3,
@@ -616,78 +664,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
-    },
-    {
-      "key": "cms_豆瓣资源",
-      "name": "📺豆瓣资源",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_光速资源",
-      "name": "📺光速资源",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_红牛资源",
-      "name": "📺红牛资源",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_茅台资源",
-      "name": "📺茅台资源",
-      "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_量子资源",
-      "name": "📺量子资源",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_非凡资源",
-      "name": "📺非凡资源",
-      "type": 1,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_索尼资源",
-      "name": "📺索尼资源",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_暴风资源",
-      "name": "📺暴风资源",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_速播资源",
-      "name": "📺速播资源",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
     }
   ],
   "rules": [
@@ -764,5 +740,5 @@
       "ua": "okHttp/Mod-1.5.0.0"
     }
   ],
-  "_lastUpdate": "2026-08-28T09:34:40.263972"
+  "_lastUpdate": "2026-08-28T09:44:27.831122"
 }

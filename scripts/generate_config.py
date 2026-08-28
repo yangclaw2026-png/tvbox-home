@@ -20,8 +20,9 @@ def generate():
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     cms_sources = sources_data.get("cms_sources", [])
     
+    cms_site_list = []
     for source in cms_sources:
-        config["sites"].append({
+        cms_site_list.append({
             "key": f"cms_{source['name']}",
             "name": f"📺{source['name']}",
             "type": 1,
@@ -29,6 +30,8 @@ def generate():
             "searchable": 1,
             "quickSearch": 1
         })
+    
+    config["sites"] = config["sites"][:3] + cms_site_list + config["sites"][3:]
     
     config["_lastUpdate"] = datetime.now().isoformat()
     
