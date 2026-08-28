@@ -111,8 +111,8 @@ var rule = {
                 vod_name: node.title,
                 vod_pic: node.tvimg ? ('https://api.ztcgi.com' + node.tvimg) : node.thumbnail,
                 type_name: node.types && node.types[0] ? node.types[0].name : '',
-                vod_year: node.year ? node.year.title : '',
-                vod_area: node.area ? node.area.title : '',
+                vod_year: node.year ? (typeof node.year === 'object' ? node.year.title : node.year) : '',
+                vod_area: node.area ? (typeof node.area === 'object' ? node.area.title : node.area) : '',
                 vod_remarks: node.score || '',
                 vod_actor: getLink(node.actors),
                 vod_director: getLink(node.directors),
@@ -122,6 +122,24 @@ var rule = {
                 var play_url = ''
             }
             let playMap = {};
+			// 新API: ftp_list
+			if (node.ftp_list && node.ftp_list.length > 0) {
+				playMap["边下边播超清版"] = node.ftp_list.map(it => {
+					return it.title + "$" + "tvbox-xg:" + it.url
+				}).join('#');
+			}
+			// 新API: source_list_source (m3u8线路)
+			if (node.source_list_source && node.source_list_source.length > 0) {
+				node.source_list_source.forEach(source => {
+					if (source.source_list && source.source_list.length > 0) {
+						let plays = source.source_list.map(item => {
+							return item.source_name + "$" + item.url
+						}).join('#');
+						playMap[source.name] = plays;
+					}
+				});
+			}
+			// 兼容旧API
 			if (node.have_ftp_ur == 1 && node.new_ftp_list) {
 				playMap["边下边播超清版"] = node.new_ftp_list.map(it => {
 					return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
