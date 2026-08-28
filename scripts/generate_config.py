@@ -15,7 +15,7 @@ def generate():
     with urllib.request.urlopen(req, timeout=30) as resp:
         config = json.loads(resp.read().decode("utf-8"))
     
-    config["sites"][0]["name"] = "🐱八宝"
+    config["sites"][0]["name"] = "🐱八小喵"
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     cms_sources = sources_data.get("cms_sources", [])
