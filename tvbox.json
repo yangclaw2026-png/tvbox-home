@@ -6,96 +6,6 @@
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
-      "key": "drpy_八小喵",
-      "name": "🐱八小喵",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/LIBVIO.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_快看",
-      "name": "🎬快看┃热播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/快看.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_Auete",
-      "name": "🏝Auete┃多线",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/Auete.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_cokemv",
-      "name": "🍫cokemv┃高清",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/cokemv.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_voflix",
-      "name": "🌊voflix┃热播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/voflix.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_爱看",
-      "name": "👀爱看┃热播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/爱看.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_酷云77",
-      "name": "☁️酷云77┃热播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/酷云77.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_南瓜影视",
-      "name": "🎃南瓜影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/南瓜影视.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "drpy_量子影视",
-      "name": "⚛️量子影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/量子影视.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "jar_玩偶哥哥",
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
@@ -226,6 +136,96 @@
       "changeable": 0
     },
     {
+      "key": "drpy_八小喵",
+      "name": "🐱八小喵",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/LIBVIO.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_快看",
+      "name": "🎬快看┃热播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/快看.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_Auete",
+      "name": "🏝Auete┃多线",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/Auete.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_cokemv",
+      "name": "🍫cokemv┃高清",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/cokemv.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_voflix",
+      "name": "🌊voflix┃热播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/voflix.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_爱看",
+      "name": "👀爱看┃热播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/爱看.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_酷云77",
+      "name": "☁️酷云77┃热播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/酷云77.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_南瓜影视",
+      "name": "🎃南瓜影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/南瓜影视.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_量子影视",
+      "name": "⚛️量子影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/量子影视.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "drpy_咕咕动漫",
       "name": "🦉咕咕动漫",
       "type": 3,
@@ -302,6 +302,14 @@
       "quickSearch": 1
     },
     {
+      "key": "cms_速播资源",
+      "name": "📺速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "cms_量子资源",
       "name": "📺量子资源",
       "type": 1,
@@ -322,14 +330,6 @@
       "name": "📺暴风资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "cms_速播资源",
-      "name": "📺速播资源",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     }
@@ -438,7 +438,7 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-28T12:08:58.693437",
+  "_lastUpdate": "2026-08-28T12:15:22.549900",
   "_stats": {
     "drpy_sources": 14,
     "jar_sources": 10,
