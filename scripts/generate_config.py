@@ -1,62 +1,27 @@
 #!/usr/bin/env python3
 import json
+import urllib.request
 from pathlib import Path
 from datetime import datetime
 
-DATA_DIR = Path("data")
-OUTPUT_DIR = Path("output")
 SOURCES_FILE = Path("scripts/sources.json")
+OUTPUT_FILE = Path("tvbox.json")
 
-SPIDER_URL = "./jar/fan.txt"
-DRPY_RUNTIME = "./FTY/drpy2.min.js"
-
-def load_category(filename):
-    filepath = DATA_DIR / filename
-    if filepath.exists():
-        return json.loads(filepath.read_text(encoding="utf-8"))
-    return []
+FTY_CONFIG_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/fty.json"
 
 def generate():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    print("下载饭太硬配置...")
+    req = urllib.request.Request(FTY_CONFIG_URL)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        config = json.loads(resp.read().decode("utf-8"))
+    
+    config["sites"][0]["name"] = "🐱八宝"
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     cms_sources = sources_data.get("cms_sources", [])
     
-    sites = [
-        {"key":"drpy_js_yangbabao","name":"🐱杨八宝","type":3,"api":DRPY_RUNTIME,"ext":"./js/drpy.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-        {"key":"光影","name":"🌞光影┃不卡","type":3,"api":"csp_T4Guard","searchable":1,"quickSearch":1,"changeable":0,"ext":"rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="},
-        {"key":"原创","name":"👒原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"海绵","name":"🐬海绵┃不卡","type":3,"api":"csp_HmysGuard","timeout":10,"playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"立播","name":"🌟立播┃不卡","type":3,"api":"csp_LibvioGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","siteUrl":"https://www.libvio.pw/"}},
-        {"key":"瓜子","name":"👀瓜子┃不卡","type":3,"api":"csp_AppgzGuard","timeout":15,"playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"比特","name":"🍄比特┃不卡","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"奶酪","name":"🧀奶酪┃秒播","type":3,"api":"csp_T4Guard","searchable":1,"quickSearch":1,"changeable":0,"ext":"rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="},
-        {"key":"热播","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
-        {"key":"视界","name":"🌸茉莉┃多线","type":3,"api":"csp_App99Guard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bJLJRdkFLnijAn5Q+ofVM5hgGb8c="},
-        {"key":"播客","name":"🦊播客┃多线","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"},
-        {"key":"剧圈","name":"🐻剧圈┃多线","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"},
-        {"key":"荐片","name":"🥝荐片┃多线","type":3,"api":"csp_JPJGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"奥特","name":"🏝奥特┃多线","type":3,"api":"csp_AueteGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"新6V","name":"🧲新6V┃磁力","type":3,"api":"csp_SixVGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/"},
-        {"key":"咕咕","name":"🦉咕咕┃动漫","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"},
-        {"key":"Dm84","name":"🚌巴士┃动漫","type":3,"api":"csp_Dm84Guard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"看球","name":"⚽八八┃看球","type":3,"api":"csp_KanqiuGuard","timeout":10,"searchable":0,"changeable":0,"style":{"type":"list"}},
-        {"key":"多多","name":"🏀多多┃回放","type":3,"api":"csp_DoubaoGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},
-        {"key":"吃瓜","name":"🏐吃瓜┃看球","type":3,"api":"csp_LiveGzGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},
-        {"key":"alllive","name":"🎮一直播┃直播","type":3,"api":"csp_AllliveGuard","style":{"type":"rect","ratio":1.597},"timeout":15,"playerType":"2","searchable":0,"quickSearch":0,"changeable":0,"ext":"uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="},
-        {"key":"MTV","name":"🎶明星┃MV","type":3,"api":"csp_BiliGuard","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"}},
-        {"key":"有声小说","name":"🎧有声┃小说","type":3,"api":"csp_Tingshu275Guard","style":{"type":"rect","ratio":1},"searchable":0,"quickSearch":0,"changeable":0},
-        {"key":"虎牙js","name":"🐯虎牙┃直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/虎牙.js","style":{"type":"rect","ratio":1.755},"timeout":10,"playerType":"2","searchable":1,"quickSearch":0,"changeable":0},
-        {"key":"斗鱼js","name":"🐟斗鱼┃直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"timeout":10,"playerType":"2","searchable":1,"quickSearch":0,"changeable":0},
-        {"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/兔小贝.js","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0},
-    ]
-    
     for source in cms_sources:
-        sites.append({
+        config["sites"].append({
             "key": f"cms_{source['name']}",
             "name": f"📺{source['name']}",
             "type": 1,
@@ -65,44 +30,14 @@ def generate():
             "quickSearch": 1
         })
     
-    config = {
-        "spider": SPIDER_URL,
-        "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
-        "sites": sites,
-        "parses": [
-            {"name":"Json聚合","type":3,"url":"Demo"},
-            {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","bilibili","1905","xigua"]}},
-            {"name":"PM","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","qq","腾讯","youku","优酷","pptv","letv","乐视","bilibili","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
-            {"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
-            {"name":"8090","url":"https://www.8090.la/8090/?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","qq","腾讯","youku","优酷","pptv","letv","乐视","bilibili","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
-            {"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
-            {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-            {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","bilibili","1905"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-            {"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}}
-        ],
-        "lives": [
-            {"name":"Kimentanm","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2},
-            {"name":"虎牙一起看","type":0,"url":"https://sub.ottiptv.cc/huyayqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.5.0.0"},
-            {"name":"斗鱼一起看","type":0,"url":"https://sub.ottiptv.cc/douyuyqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.5.0.0"}
-        ],
-        "rules": [
-            {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社区","直播","更新","英皇体育","澳门皇冠赌场"]},
-            {"name":"暴風","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]}
-        ],
-        "_lastUpdate": datetime.now().isoformat(),
-        "_stats": {
-            "fty_sources": 33,
-            "cms_sources": len(cms_sources)
-        }
-    }
+    config["_lastUpdate"] = datetime.now().isoformat()
     
-    config_file = OUTPUT_DIR / "tvbox.json"
-    config_file.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUTPUT_FILE.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
     print(f"配置生成完成:")
-    print(f"  饭太硬源: 33 个")
+    print(f"  饭太硬源: {len(config['sites']) - len(cms_sources)} 个")
     print(f"  CMS源: {len(cms_sources)} 个")
-    print(f"  输出: {config_file}")
+    print(f"  输出: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     generate()
