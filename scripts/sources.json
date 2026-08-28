@@ -3,47 +3,47 @@
     {
       "name": "豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
-      "type": "cms"
+      "js_file": "dbzy.js"
     },
     {
       "name": "光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "type": "cms"
+      "js_file": "guangsu.js"
     },
     {
       "name": "红牛资源",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
-      "type": "cms"
+      "js_file": "hongniu.js"
     },
     {
       "name": "茅台资源",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-      "type": "cms"
+      "js_file": "maotai.js"
     },
     {
       "name": "量子资源",
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
-      "type": "cms"
+      "js_file": "liangzi.js"
     },
     {
       "name": "非凡资源",
       "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
-      "type": "cms"
+      "js_file": "feifan.js"
     },
     {
       "name": "索尼资源",
       "api": "https://suoniapi.com/api.php/provide/vod/",
-      "type": "cms"
+      "js_file": "suoni.js"
     },
     {
       "name": "暴风资源",
       "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "type": "cms"
+      "js_file": "baofeng.js"
     },
     {
       "name": "速播资源",
       "api": "https://subocaiji.com/api.php/provide/vod/",
-      "type": "cms"
+      "js_file": "subo.js"
     }
   ]
 }
