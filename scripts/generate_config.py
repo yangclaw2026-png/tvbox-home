@@ -6,41 +6,33 @@ from datetime import datetime
 SOURCES_FILE = Path("scripts/sources.json")
 OUTPUT_FILE = Path("tvbox.json")
 
-DRPY_RUNTIME = "./lib/drpy2.min.js"
-JAR_PATH = "./jar/duhe.jar"
+BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
+DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"
+JAR_DUHE = f"{BASE_URL}/jar/duhe.jar"
+JAR_FTY = f"{BASE_URL}/jar/fantaiying.jar"
+
+def js(name):
+    return f"{BASE_URL}/js/{name}.js"
 
 def generate():
     sites = [
-        {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":"./js/LIBVIO.js","searchable":1,"quickSearch":1,"changeable":0},
-        
-        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
-        {"key":"jar_木偶","name":"🪆木偶┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"},
-        {"key":"jar_至臻","name":"💎至臻┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"},
+        {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":js("LIBVIO"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_玩偶哥哥","name":"👽玩偶哥哥┃4K","type":3,"api":DRPY_RUNTIME,"ext":js("玩偶哥哥"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
+
+        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
         {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
-        {"key":"jar_荐片","name":"🥝荐片┃磁力","type":3,"api":"csp_Jianpian","playerType":1,"ext":"http://api2.rinhome.com"},
-        
         {"key":"jar2_玩偶哥哥","name":"📦玩偶哥哥┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
-        {"key":"jar2_木偶","name":"📦木偶┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://mogg.top/","danMu":"弹"}},
-        {"key":"jar2_至臻","name":"📦至臻┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.zz4k.com/","danMu":"弹"}},
         {"key":"jar2_多多","name":"📦多多┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.duoduokan.com/","danMu":"弹"}},
-        {"key":"jar2_荐片","name":"📦荐片┃备份","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
-        
-        {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/快看.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_爱看","name":"👀爱看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/爱看.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_酷云77","name":"☁️酷云77┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/酷云77.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_南瓜影视","name":"🎃南瓜影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/南瓜影视.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_量子影视","name":"⚛️量子影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/量子影视.js","searchable":1,"quickSearch":1,"changeable":0},
-        
-        {"key":"drpy_新6V","name":"🧲新6V┃磁力","type":3,"api":DRPY_RUNTIME,"ext":"./js/新6V.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_咕咕动漫","name":"🦉咕咕动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/咕咕动漫.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_巴士动漫","name":"🚌巴士动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/巴士动漫.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_八八看球","name":"⚽八八看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/八八看球.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_多多回放","name":"🏀多多回放","type":3,"api":DRPY_RUNTIME,"ext":"./js/多多回放.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_吃瓜看球","name":"🏐吃瓜看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/吃瓜看球.js","searchable":1,"quickSearch":1,"changeable":0},
-        
-        {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":"./js/Auete.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":"./js/cokemv.js","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/voflix.js","searchable":1,"quickSearch":1,"changeable":0},
+
+        {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("快看"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_爱看","name":"👀爱看┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("爱看"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_酷云77","name":"☁️酷云77┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("酷云77"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_南瓜影视","name":"🎃南瓜影视","type":3,"api":DRPY_RUNTIME,"ext":js("南瓜影视"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_量子影视","name":"⚛️量子影视","type":3,"api":DRPY_RUNTIME,"ext":js("量子影视"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":js("Auete"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":js("cokemv"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
     ]
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
@@ -67,8 +59,11 @@ def generate():
             "quickSearch": 1
         })
     
+    drpy_count = len([s for s in sites if s.get("type") == 3 and "drpy" in s.get("key", "")])
+    jar_count = len([s for s in sites if s.get("type") == 3 and "jar" in s.get("key", "")])
+    
     config = {
-        "spider": [JAR_PATH, "./jar/fantaiying.jar"],
+        "spider": [JAR_DUHE, JAR_FTY],
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
         "parses": [
@@ -103,6 +98,12 @@ def generate():
                 "script":[]
             },
             {
+                "name":"光速广告",
+                "hosts":["guangsu","api.guangsu"],
+                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"],
+                "script":[]
+            },
+            {
                 "name":"广告屏蔽",
                 "hosts":["*"],
                 "regex":[".*\\.ad\\..*",".*\\.ads\\..*",".*\\.广告\\..*"],
@@ -115,18 +116,17 @@ def generate():
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
-            "drpy_sources": 14,
-            "jar_sources": 10,
+            "drpy_sources": drpy_count,
+            "jar_sources": jar_count,
             "cms_sources": len(cms_sources)
         }
     }
     
     OUTPUT_FILE.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
-    print(f"混合配置生成完成:")
-    print(f"  DRPY源: 14 个（影视+动漫+磁力+体育）")
-    print(f"  JAR源: 5 个（玩偶、木偶、至臻、多多、荐片）")
-    print(f"  备份JAR: 5 个（玩偶、木偶、至臻、多多、荐片）")
+    print(f"配置生成完成:")
+    print(f"  DRPY源: {drpy_count} 个")
+    print(f"  JAR源: {jar_count} 个")
     print(f"  CMS源: {len(cms_sources)} 个")
     print(f"  输出: {OUTPUT_FILE}")
 
