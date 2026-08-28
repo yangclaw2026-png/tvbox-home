@@ -1,7 +1,7 @@
 {
   "spider": [
-    "./jar/duhe.jar",
-    "./jar/fantaiying.jar"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/duhe.jar",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fantaiying.jar"
   ],
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
@@ -9,8 +9,8 @@
       "key": "drpy_八小喵",
       "name": "🐱八小喵",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/LIBVIO.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/LIBVIO.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -19,8 +19,8 @@
       "key": "drpy_玩偶哥哥",
       "name": "👽玩偶哥哥┃4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/玩偶哥哥.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/玩偶哥哥.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -29,8 +29,8 @@
       "key": "drpy_荐片",
       "name": "🥝荐片┃磁力",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/荐片_new.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/荐片_new.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -98,8 +98,8 @@
       "key": "drpy_快看",
       "name": "🎬快看┃热播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/快看.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/快看.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -108,8 +108,8 @@
       "key": "drpy_爱看",
       "name": "👀爱看┃热播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/爱看.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/爱看.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -118,8 +118,8 @@
       "key": "drpy_酷云77",
       "name": "☁️酷云77┃热播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/酷云77.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/酷云77.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -128,8 +128,8 @@
       "key": "drpy_南瓜影视",
       "name": "🎃南瓜影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/南瓜影视.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/南瓜影视.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -138,8 +138,8 @@
       "key": "drpy_量子影视",
       "name": "⚛️量子影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/量子影视.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/量子影视.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -148,8 +148,8 @@
       "key": "drpy_Auete",
       "name": "🏝Auete┃多线",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/Auete.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/Auete.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -158,8 +158,8 @@
       "key": "drpy_cokemv",
       "name": "🍫cokemv┃高清",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/cokemv.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/cokemv.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -168,8 +168,8 @@
       "key": "drpy_voflix",
       "name": "🌊voflix┃热播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/voflix.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/voflix.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
