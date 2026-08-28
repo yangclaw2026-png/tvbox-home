@@ -303,6 +303,17 @@
       "script": []
     },
     {
+      "name": "光速广告",
+      "hosts": [
+        "guangsu",
+        "api.guangsu"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ],
+      "script": []
+    },
+    {
       "name": "广告屏蔽",
       "hosts": [
         "*"
