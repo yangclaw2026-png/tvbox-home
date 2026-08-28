@@ -13,7 +13,7 @@ GITHUB_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/mai
 
 SPIDER_URL = f"https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
 
-WORKER_URL = "https://tvbox-api.yangclaw2026.workers.dev/api"
+DRPY_RUNTIME = "https://raw.githubusercontent.com/hjdhnx/drpy-node/main/js/drpy2.min.js"
 
 def load_category(filename):
     filepath = DATA_DIR / filename
@@ -33,15 +33,27 @@ def generate():
     
     sites = [
         {
-            "key": "ranking",
+            "key": "drpy_js_ranking",
             "name": "📊 豆瓣榜单",
-            "type": 1,
-            "api": WORKER_URL,
+            "type": 3,
+            "api": DRPY_RUNTIME,
+            "ext": f"{GITHUB_RAW}/js/ranking.js",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "quickSearch": 1
         }
     ]
+    
+    for i, source in enumerate(cms_sources):
+        js_file = source.get("js_file", f"{source['name']}.js")
+        sites.append({
+            "key": f"drpy_js_{source['name']}",
+            "name": f"🔍 {source['name']}",
+            "type": 3,
+            "api": DRPY_RUNTIME,
+            "ext": f"{GITHUB_RAW}/js/{js_file}",
+            "searchable": 1,
+            "quickSearch": 1
+        })
     
     config = {
         "spider": SPIDER_URL,
@@ -64,7 +76,7 @@ def generate():
             "movies": len(movies),
             "tv": len(tv),
             "variety": len(variety),
-            "sources": 1
+            "sources": len(cms_sources) + 1
         }
     }
     
@@ -72,8 +84,8 @@ def generate():
     config_file.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
     print(f"配置生成完成:")
-    print(f"  排行榜: 指向 Worker API（唯一 type 1 源）")
-    print(f"  搜索: Worker 转发给 CMS 源")
+    print(f"  排行榜: DRPY type 3 源")
+    print(f"  CMS源: {len(cms_sources)} 个 DRPY type 3 源")
     print(f"  输出: {config_file}")
 
 if __name__ == "__main__":
