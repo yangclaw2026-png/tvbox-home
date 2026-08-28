@@ -13,7 +13,7 @@ GITHUB_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/mai
 
 SPIDER_URL = f"https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar"
 
-DRPY_RUNTIME = "https://raw.githubusercontent.com/hjdhnx/drpy-node/main/js/drpy2.min.js"
+DRPY_RUNTIME = "https://ghproxy.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
 
 def load_category(filename):
     filepath = DATA_DIR / filename
