@@ -5,7 +5,7 @@
       "key": "drpy_js_ranking",
       "name": "📊 豆瓣榜单",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/hjdhnx/drpy-node/main/js/drpy2.min.js",
+      "api": "https://ghproxy.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/ranking.js",
       "searchable": 1,
       "quickSearch": 1
@@ -124,7 +124,7 @@
       "playerType": 1
     }
   ],
-  "_lastUpdate": "2026-08-28T05:34:45.528668",
+  "_lastUpdate": "2026-08-28T08:07:18.241743",
   "_stats": {
     "movies": 4,
     "tv": 4,
