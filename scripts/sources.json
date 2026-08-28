@@ -2,48 +2,39 @@
   "cms_sources": [
     {
       "name": "豆瓣资源",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
-      "js_file": "dbzy.js"
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/"
     },
     {
       "name": "光速资源",
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "js_file": "guangsu.js"
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/"
     },
     {
       "name": "红牛资源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
-      "js_file": "hongniu.js"
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/"
     },
     {
       "name": "茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-      "js_file": "maotai.js"
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/"
     },
     {
       "name": "量子资源",
-      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
-      "js_file": "liangzi.js"
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/"
     },
     {
       "name": "非凡资源",
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
-      "js_file": "feifan.js"
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/"
     },
     {
       "name": "索尼资源",
-      "api": "https://suoniapi.com/api.php/provide/vod/",
-      "js_file": "suoni.js"
+      "api": "https://suoniapi.com/api.php/provide/vod/"
     },
     {
       "name": "暴风资源",
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "js_file": "baofeng.js"
+      "api": "https://bfzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod/",
-      "js_file": "subo.js"
+      "api": "https://subocaiji.com/api.php/provide/vod/"
     }
   ]
 }
