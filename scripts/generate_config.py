@@ -27,6 +27,12 @@ def generate():
         {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
         {"key":"jar_荐片","name":"🥝荐片┃磁力","type":3,"api":"csp_Jianpian","playerType":1,"ext":"http://api2.rinhome.com"},
         
+        {"key":"jar2_玩偶哥哥","name":"📦玩偶哥哥┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
+        {"key":"jar2_木偶","name":"📦木偶┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://mogg.top/","danMu":"弹"}},
+        {"key":"jar2_至臻","name":"📦至臻┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.zz4k.com/","danMu":"弹"}},
+        {"key":"jar2_多多","name":"📦多多┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.duoduokan.com/","danMu":"弹"}},
+        {"key":"jar2_荐片","name":"📦荐片┃备份","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
+        
         {"key":"drpy_咕咕动漫","name":"🦉咕咕动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/咕咕动漫.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_巴士动漫","name":"🚌巴士动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/巴士动漫.js","searchable":1,"quickSearch":1,"changeable":0},
         
@@ -51,7 +57,7 @@ def generate():
         })
     
     config = {
-        "spider": JAR_PATH,
+        "spider": [JAR_PATH, "./jar/fantaiying.jar"],
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
         "parses": [
@@ -66,7 +72,7 @@ def generate():
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
             "drpy_sources": 14,
-            "jar_sources": 5,
+            "jar_sources": 10,
             "cms_sources": len(cms_sources)
         }
     }
@@ -76,6 +82,7 @@ def generate():
     print(f"混合配置生成完成:")
     print(f"  DRPY源: 14 个（影视+动漫+磁力+体育）")
     print(f"  JAR源: 5 个（玩偶、木偶、至臻、多多、荐片）")
+    print(f"  备份JAR: 5 个（玩偶、木偶、至臻、多多、荐片）")
     print(f"  CMS源: {len(cms_sources)} 个")
     print(f"  输出: {OUTPUT_FILE}")
 
