@@ -1,18 +1,19 @@
 {
-  "spider": "https://ghproxy.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
+  "spider": "./lib/pg.jar",
+  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
       "key": "drpy_js_ranking",
-      "name": "📊 豆瓣榜单",
+      "name": "搜索 | 豆瓣榜单[js]",
       "type": 3,
-      "api": "https://ghproxy.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/ranking.js",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/ranking.js",
       "searchable": 1,
       "quickSearch": 1
     },
     {
       "key": "cms_豆瓣资源",
-      "name": "🔍 豆瓣资源",
+      "name": "影视 | 豆瓣资源",
       "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
       "searchable": 1,
@@ -20,7 +21,7 @@
     },
     {
       "key": "cms_光速资源",
-      "name": "🔍 光速资源",
+      "name": "影视 | 光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -28,7 +29,7 @@
     },
     {
       "key": "cms_红牛资源",
-      "name": "🔍 红牛资源",
+      "name": "影视 | 红牛资源",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
       "searchable": 1,
@@ -36,7 +37,7 @@
     },
     {
       "key": "cms_茅台资源",
-      "name": "🔍 茅台资源",
+      "name": "影视 | 茅台资源",
       "type": 1,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
       "searchable": 1,
@@ -44,7 +45,7 @@
     },
     {
       "key": "cms_量子资源",
-      "name": "🔍 量子资源",
+      "name": "影视 | 量子资源",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
       "searchable": 1,
@@ -52,7 +53,7 @@
     },
     {
       "key": "cms_非凡资源",
-      "name": "🔍 非凡资源",
+      "name": "影视 | 非凡资源",
       "type": 1,
       "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
       "searchable": 1,
@@ -60,7 +61,7 @@
     },
     {
       "key": "cms_索尼资源",
-      "name": "🔍 索尼资源",
+      "name": "影视 | 索尼资源",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -68,7 +69,7 @@
     },
     {
       "key": "cms_暴风资源",
-      "name": "🔍 暴风资源",
+      "name": "影视 | 暴风资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -76,7 +77,7 @@
     },
     {
       "key": "cms_速播资源",
-      "name": "🔍 速播资源",
+      "name": "影视 | 速播资源",
       "type": 1,
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
@@ -85,33 +86,53 @@
   ],
   "parses": [
     {
-      "name": "解析聚合",
+      "name": "Json聚合",
       "type": 3,
-      "url": "Web"
+      "url": "Demo"
     },
     {
-      "name": "全能解析1",
-      "type": 1,
-      "url": "https://jx.777jiexi.com/player/?url=",
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "PM",
+      "type": 0,
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
         "flag": [
-          "qq",
-          "mgtv",
           "qiyi",
-          "youku"
+          "imgo",
+          "youku",
+          "qq",
+          "letv",
+          "sohu",
+          "bilibili",
+          "mgtv"
         ]
       }
     },
     {
-      "name": "全能解析2",
+      "name": "m3u8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "云解析",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url="
+    },
+    {
+      "name": "巧技",
       "type": 1,
-      "url": "https://jx.jsonplayer.com/player/?url=",
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
       "ext": {
         "flag": [
           "qq",
-          "mgtv",
+          "youku",
           "qiyi",
-          "youku"
+          "mgtv",
+          "bilibili"
         ]
       }
     }
@@ -121,10 +142,60 @@
       "name": "国内直播",
       "type": 0,
       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "playerType": 1
+      "playerType": 2,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
-  "_lastUpdate": "2026-08-28T08:18:07.538097",
+  "rules": [
+    {
+      "name": "磁力廣告",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "更多",
+        "社區",
+        "直播",
+        "更新",
+        "社区",
+        "有趣",
+        "英皇体育",
+        "澳门皇冠赌场"
+      ]
+    },
+    {
+      "name": "暴風",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "量子",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "18.5333"
+      ]
+    },
+    {
+      "name": "非凡",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "25.1"
+      ]
+    }
+  ],
+  "_lastUpdate": "2026-08-28T08:47:44.894928",
   "_stats": {
     "movies": 4,
     "tv": 4,
