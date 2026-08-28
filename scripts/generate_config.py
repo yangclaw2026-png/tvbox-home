@@ -31,6 +31,7 @@ def generate():
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     cms_sources = sources_data.get("cms_sources", [])
     
+    # 排行榜源 - type 3 (DRPY)
     sites = [
         {
             "key": "drpy_js_ranking",
@@ -43,14 +44,13 @@ def generate():
         }
     ]
     
-    for i, source in enumerate(cms_sources):
-        js_file = source.get("js_file", f"{source['name']}.js")
+    # CMS 源 - type 1 (直接 API)
+    for source in cms_sources:
         sites.append({
-            "key": f"drpy_js_{source['name']}",
+            "key": f"cms_{source['name']}",
             "name": f"🔍 {source['name']}",
-            "type": 3,
-            "api": DRPY_RUNTIME,
-            "ext": f"{GITHUB_RAW}/js/{js_file}",
+            "type": 1,
+            "api": source["api"],
             "searchable": 1,
             "quickSearch": 1
         })
@@ -84,8 +84,8 @@ def generate():
     config_file.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
     print(f"配置生成完成:")
-    print(f"  排行榜: DRPY type 3 源")
-    print(f"  CMS源: {len(cms_sources)} 个 DRPY type 3 源")
+    print(f"  排行榜: DRPY type 3 源 (独立分类)")
+    print(f"  CMS源: {len(cms_sources)} 个 type 1 源")
     print(f"  输出: {config_file}")
 
 if __name__ == "__main__":
