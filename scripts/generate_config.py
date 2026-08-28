@@ -24,6 +24,7 @@ def generate():
         
         {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":"./js/LIBVIO.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/快看.js","searchable":1,"quickSearch":1,"changeable":0},
+        
         {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":"./js/Auete.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":"./js/cokemv.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/voflix.js","searchable":1,"quickSearch":1,"changeable":0},
