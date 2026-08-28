@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/drpy2.min.js",
+  "spider": "./jar/duhe.jar",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
@@ -93,6 +93,122 @@
       "changeable": 0
     },
     {
+      "key": "jar_玩偶哥哥",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.com/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "jar_木偶",
+      "name": "🪆木偶┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"
+    },
+    {
+      "key": "jar_至臻",
+      "name": "💎至臻┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"
+    },
+    {
+      "key": "jar_多多",
+      "name": "🎯多多┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
+    },
+    {
+      "key": "jar_荐片",
+      "name": "🥝荐片┃磁力",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "playerType": 1,
+      "ext": "http://api2.rinhome.com"
+    },
+    {
+      "key": "drpy_咕咕动漫",
+      "name": "🦉咕咕动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/咕咕动漫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_巴士动漫",
+      "name": "🚌巴士动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/巴士动漫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_新6V",
+      "name": "🧲新6V┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/新6V.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_八八看球",
+      "name": "⚽八八看球",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/八八看球.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_多多回放",
+      "name": "🏀多多回放",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/多多回放.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_吃瓜看球",
+      "name": "🏐吃瓜看球",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/吃瓜看球.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "cms_光速资源",
       "name": "📺光速资源",
       "type": 1,
@@ -171,9 +287,10 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-28T10:19:45.262047",
+  "_lastUpdate": "2026-08-28T12:03:01.011938",
   "_stats": {
-    "drpy_sources": 9,
+    "drpy_sources": 14,
+    "jar_sources": 5,
     "cms_sources": 6
   }
 }

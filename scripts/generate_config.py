@@ -7,6 +7,7 @@ SOURCES_FILE = Path("scripts/sources.json")
 OUTPUT_FILE = Path("tvbox.json")
 
 DRPY_RUNTIME = "./lib/drpy2.min.js"
+JAR_PATH = "./jar/duhe.jar"
 
 def generate():
     sites = [
@@ -19,6 +20,21 @@ def generate():
         {"key":"drpy_酷云77","name":"☁️酷云77┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/酷云77.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_南瓜影视","name":"🎃南瓜影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/南瓜影视.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_量子影视","name":"⚛️量子影视","type":3,"api":DRPY_RUNTIME,"ext":"./js/量子影视.js","searchable":1,"quickSearch":1,"changeable":0},
+        
+        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
+        {"key":"jar_木偶","name":"🪆木偶┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"},
+        {"key":"jar_至臻","name":"💎至臻┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"},
+        {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
+        {"key":"jar_荐片","name":"🥝荐片┃磁力","type":3,"api":"csp_Jianpian","playerType":1,"ext":"http://api2.rinhome.com"},
+        
+        {"key":"drpy_咕咕动漫","name":"🦉咕咕动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/咕咕动漫.js","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_巴士动漫","name":"🚌巴士动漫","type":3,"api":DRPY_RUNTIME,"ext":"./js/巴士动漫.js","searchable":1,"quickSearch":1,"changeable":0},
+        
+        {"key":"drpy_新6V","name":"🧲新6V┃磁力","type":3,"api":DRPY_RUNTIME,"ext":"./js/新6V.js","searchable":1,"quickSearch":1,"changeable":0},
+        
+        {"key":"drpy_八八看球","name":"⚽八八看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/八八看球.js","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_多多回放","name":"🏀多多回放","type":3,"api":DRPY_RUNTIME,"ext":"./js/多多回放.js","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_吃瓜看球","name":"🏐吃瓜看球","type":3,"api":DRPY_RUNTIME,"ext":"./js/吃瓜看球.js","searchable":1,"quickSearch":1,"changeable":0},
     ]
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
@@ -35,7 +51,7 @@ def generate():
         })
     
     config = {
-        "spider": DRPY_RUNTIME,
+        "spider": JAR_PATH,
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
         "parses": [
@@ -49,15 +65,17 @@ def generate():
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
-            "drpy_sources": len(sites) - len(cms_sources),
+            "drpy_sources": 14,
+            "jar_sources": 5,
             "cms_sources": len(cms_sources)
         }
     }
     
     OUTPUT_FILE.write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
     
-    print(f"配置生成完成:")
-    print(f"  DRPY源: {len(sites) - len(cms_sources)} 个")
+    print(f"混合配置生成完成:")
+    print(f"  DRPY源: 14 个（影视+动漫+磁力+体育）")
+    print(f"  JAR源: 5 个（玩偶、木偶、至臻、多多、荐片）")
     print(f"  CMS源: {len(cms_sources)} 个")
     print(f"  输出: {OUTPUT_FILE}")
 
