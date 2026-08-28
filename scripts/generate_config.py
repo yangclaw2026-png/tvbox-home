@@ -11,6 +11,8 @@ JAR_PATH = "./jar/duhe.jar"
 
 def generate():
     sites = [
+        {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":"./js/LIBVIO.js","searchable":1,"quickSearch":1,"changeable":0},
+        
         {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
         {"key":"jar_木偶","name":"🪆木偶┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"},
         {"key":"jar_至臻","name":"💎至臻┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"},
@@ -22,9 +24,7 @@ def generate():
         {"key":"jar2_多多","name":"📦多多┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.duoduokan.com/","danMu":"弹"}},
         {"key":"jar2_荐片","name":"📦荐片┃备份","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
         
-        {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":"./js/LIBVIO.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/快看.js","searchable":1,"quickSearch":1,"changeable":0},
-        
         {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":"./js/Auete.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":"./js/cokemv.js","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":"./js/voflix.js","searchable":1,"quickSearch":1,"changeable":0},
