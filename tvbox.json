@@ -574,9 +574,15 @@
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/entertainment-test.m3u",
       "playerType": 2
+    },
+    {
+      "name": "射雕英雄传┃版本测试",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/shediao-test.m3u",
+      "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T08:05:19.815783",
+  "_lastUpdate": "2026-08-29T08:07:55.533789",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,

@@ -144,6 +144,7 @@ def generate():
             {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2}
             ,{"name":"Bloomberg┃待补链路","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u","playerType":2}
             ,{"name":"电影电视剧┃轮播测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/entertainment-test.m3u","playerType":2}
+            ,{"name":"射雕英雄传┃版本测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/shediao-test.m3u","playerType":2}
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
