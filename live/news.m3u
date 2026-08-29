@@ -2,27 +2,13 @@
 #EXTINF:-1 tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
-https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
 https://epg.pw/stream/db814d86b7087eb2db861a406c8b0809a369f6d8a5146389932af3148c0c1091.m3u8
-#EXTINF:-1 tvg-name="BBC World News" group-title="国际新闻",BBC World News
-https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-name="BBC World News" group-title="国际新闻",BBC World News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-name="CNN International" group-title="国际新闻",CNN International
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="CNN International" group-title="国际新闻",CNN International
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8
-#EXTINF:-1 tvg-name="CNN International" group-title="国际新闻",CNN International
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
-#EXTINF:-1 tvg-name="CNN International" group-title="国际新闻",CNN International
-https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 tvg-name="ABC" group-title="国际新闻",ABC
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 tvg-name="ABC" group-title="国际新闻",ABC
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-name="ABC" group-title="国际新闻",ABC
-https://c.mjh.nz/abc-news.m3u8
 #EXTINF:-1 tvg-name="CNBC EN" group-title="国际新闻",CNBC EN
 https://cnbc-live.akamaized.net/cnbc/master.m3u8
 #EXTINF:-1 tvg-name="CNBC EN" group-title="国际新闻",CNBC EN
