@@ -1,0 +1,77 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="周星驰二" group-title="38.75电影轮播",周星驰二
+http://38.75.136.137:98/gslb/dsdqpub/lbzxc.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="周星驰三" group-title="38.75电影轮播",周星驰三
+http://38.75.136.137:98/gslb/dsdqpub/lbzxc3.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="成龙二" group-title="38.75电影轮播",成龙二
+http://38.75.136.137:98/gslb/dsdqpub/lbcl.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="成龙" group-title="38.75电影轮播",成龙
+http://38.75.136.137:98/gslb/dsdqpub/lbcl2.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="周润发电影" group-title="38.75电影轮播",周润发电影
+http://38.75.136.137:98/gslb/dsdqpub/lbzrf.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="李连杰" group-title="38.75电影轮播",李连杰
+http://38.75.136.137:98/gslb/dsdqpub/lblijie.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="刘德华" group-title="38.75电影轮播",刘德华
+http://38.75.136.137:98/gslb/dsdqpub/lbldh.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="古天乐" group-title="38.75电影轮播",古天乐
+http://38.75.136.137:98/gslb/dsdqpub/lbgtl.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="王晶" group-title="38.75电影轮播",王晶
+http://38.75.136.137:98/gslb/dsdqpub/lbwj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="甄子丹" group-title="38.75电影轮播",甄子丹
+http://38.75.136.137:98/gslb/dsdqpub/lbzzd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="梁朝伟" group-title="38.75电影轮播",梁朝伟
+http://38.75.136.137:98/gslb/dsdqpub/lbcw.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="张国荣" group-title="38.75电影轮播",张国荣
+http://38.75.136.137:98/gslb/dsdqpub/lbgr.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="黄百鸣" group-title="38.75电影轮播",黄百鸣
+http://38.75.136.137:98/gslb/dsdqpub/lbbm.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="洪金宝" group-title="38.75电影轮播",洪金宝
+http://38.75.136.137:98/gslb/dsdqpub/lbhjb.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="林正英" group-title="38.75电影轮播",林正英
+http://38.75.136.137:98/gslb/dsdqpub/lblzy.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="吴京" group-title="38.75电影轮播",吴京
+http://38.75.136.137:98/gslb/dsdqpub/lbwj2.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="功夫" group-title="38.75电影轮播",功夫
+http://38.75.136.137:98/gslb/dsdqpub/lbgf.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="战争" group-title="38.75电影轮播",战争
+http://38.75.136.137:98/gslb/dsdqpub/lbzz.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="喜剧" group-title="38.75电影轮播",喜剧
+http://38.75.136.137:98/gslb/dsdqpub/lbxj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="科幻" group-title="38.75电影轮播",科幻
+http://38.75.136.137:98/gslb/dsdqpub/lbkh.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="爱情" group-title="38.75电影轮播",爱情
+http://38.75.136.137:98/gslb/dsdqpub/lbai.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="武侠" group-title="38.75电影轮播",武侠
+http://38.75.136.137:98/gslb/dsdqpub/lbwx.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="警匪" group-title="38.75电影轮播",警匪
+http://38.75.136.137:98/gslb/dsdqpub/lbjf.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="悬疑" group-title="38.75电影轮播",悬疑
+http://38.75.136.137:98/gslb/dsdqpub/lbxy.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="恐怖" group-title="38.75电影轮播",恐怖
+http://38.75.136.137:98/gslb/dsdqpub/lbkb.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="动画" group-title="38.75剧场轮播",动画
+http://38.75.136.137:98/gslb/dsdqpub/lbdh.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="TVB" group-title="38.75剧场轮播",TVB
+http://38.75.136.137:98/gslb/dsdqpub/lbtvb.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="港剧" group-title="38.75剧场轮播",港剧
+http://38.75.136.137:98/gslb/dsdqpub/lbgj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="韩剧" group-title="38.75剧场轮播",韩剧
+http://38.75.136.137:98/gslb/dsdqpub/lbhj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="日剧" group-title="38.75剧场轮播",日剧
+http://38.75.136.137:98/gslb/dsdqpub/lbri.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="台剧" group-title="38.75剧场轮播",台剧
+http://38.75.136.137:98/gslb/dsdqpub/lbtj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="第一剧场" group-title="38.75剧场轮播",第一剧场
+http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="风云剧场" group-title="38.75剧场轮播",风云剧场
+http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="怀旧剧场" group-title="38.75剧场轮播",怀旧剧场
+http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="欢笑剧场" group-title="38.75剧场轮播",欢笑剧场
+http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="都市剧场" group-title="38.75剧场轮播",都市剧场
+http://38.75.136.137:98/gslb/dsdqpub/dsjchd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="38.75剧场轮播",CHC家庭影院
+http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="38.75剧场轮播",CHC动作电影
+http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
