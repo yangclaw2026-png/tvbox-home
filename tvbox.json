@@ -3,6 +3,42 @@
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
+      "key": "jar_八小喵",
+      "name": "🐱八小喵",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "jar_玩偶哥哥",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.com/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "jar_多多",
+      "name": "🎯多多┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
+    },
+    {
       "key": "drpy_360影视",
       "name": "📺360影视┃官源",
       "type": 3,
@@ -61,42 +97,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
-    },
-    {
-      "key": "jar_八小喵",
-      "name": "🐱八小喵",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "jar_玩偶哥哥",
-      "name": "👽玩偶哥哥┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "jar_多多",
-      "name": "🎯多多┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
     },
     {
       "key": "cms_光速资源",
@@ -286,7 +286,7 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T05:01:31.776869",
+  "_lastUpdate": "2026-08-29T05:02:41.083193",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 3,

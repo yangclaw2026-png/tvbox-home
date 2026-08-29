@@ -15,18 +15,18 @@ def js(name):
 
 def generate():
     sites = [
-        # === DRPY 源（已验证可用）===
+        # === JAR 源（饭太硬）=== 首页优先
+        {"key":"jar_八小喵","name":"🐱八小喵","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
+        {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
+
+        # === DRPY 源（官方源）===
         {"key":"drpy_360影视","name":"📺360影视┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("360影视"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_腾云驾雾","name":"🐧腾讯视频┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("腾云驾雾"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_百忙无果","name":"🥭芒果TV┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("百忙无果"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_茶杯狐","name":"🦊茶杯狐┃聚合","type":3,"api":DRPY_RUNTIME,"ext":js("茶杯狐"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
-
-        # === JAR 源（饭太硬）===
-        {"key":"jar_八小喵","name":"🐱八小喵","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
-        {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
 
         # === CMS 源（搜索用）===
     ]
