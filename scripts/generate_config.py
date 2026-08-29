@@ -8,7 +8,7 @@ OUTPUT_FILE = Path("tvbox.json")
 
 BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
 DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"  # hjdhnx版本,依赖已替换为gh-proxy绝对URL
-SPIDER_JAR = "./jar/fan.txt"  # OK影视兼容的饭太硬 JAR 相对路径
+SPIDER_JAR = "./jar/fan.txt"  # 播放器兼容的饭太硬 JAR 相对路径
 JAR_CLOUD = {"Cloud-drive": "tvfan/Cloud-drive.txt"}
 
 def js(name):
@@ -85,7 +85,7 @@ def generate():
     jar_count = len([s for s in sites if s.get("type") == 3 and "jar" in s.get("key", "")])
     
     config = {
-        # OK影视兼容单一 spider；饭太硬 JAR 已包含主站及荐片备用实现
+        # 播放器兼容单一 spider；饭太硬 JAR 已包含主站及荐片备用实现
         "spider": f"{SPIDER_JAR};md5;608d621640f5ed5ae8c78158ca61bff7",
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
