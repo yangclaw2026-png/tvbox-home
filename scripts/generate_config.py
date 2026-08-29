@@ -9,6 +9,7 @@ OUTPUT_FILE = Path("tvbox.json")
 BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
 DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"  # hjdhnx版本,依赖已替换为gh-proxy绝对URL
 SPIDER_JAR = f"{BASE_URL}/jar/fan.txt"  # 饭太硬 JAR (改名为 .txt)
+BACKUP_JAR = f"{BASE_URL}/jar/duhe.jar"  # 毒盒备用 JAR
 JAR_CLOUD = {"Cloud-drive": "tvfan/Cloud-drive.txt"}
 
 def js(name):
@@ -20,6 +21,7 @@ def generate():
         {"key":"jar_八小喵","name":"🐱八小喵","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"jar_我的云盘","name":"🗂我的云盘┃网盘","type":3,"api":"csp_MyDriveGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
         {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K网盘","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":1,"ext":JAR_CLOUD},
+        {"key":"jar2_玩偶哥哥","name":"📦玩偶哥哥┃4K网盘备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":1,"ext":JAR_CLOUD},
         {"key":"jar_聚剧","name":"💡聚剧┃四盘","type":3,"api":"csp_SeedhubGuard","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"jar_多多","name":"🎯多多┃4K网盘","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
         {"key":"jar_光影","name":"🌞光影┃多线","type":3,"api":"csp_T4Guard","searchable":1,"quickSearch":1,"changeable":1},
@@ -43,6 +45,7 @@ def generate():
         {"key":"jar_盘他","name":"🐞盘他┃嘟嘟","type":3,"api":"csp_BpanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
         {"key":"jar_抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
         {"key":"jar_UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
+        {"key":"jar2_荐片","name":"📦荐片┃JAR备份","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"changeable":0,"ext":"https://api.ztcgi.com"},
 
         # === DRPY 源（官方源）===
         {"key":"drpy_360影视","name":"📺360影视┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("360影视"),"searchable":1,"quickSearch":1,"changeable":0},
@@ -83,7 +86,10 @@ def generate():
     jar_count = len([s for s in sites if s.get("type") == 3 and "jar" in s.get("key", "")])
     
     config = {
-        "spider": f"{SPIDER_JAR};md5;608d621640f5ed5ae8c78158ca61bff7",
+        "spider": [
+            f"{SPIDER_JAR};md5;608d621640f5ed5ae8c78158ca61bff7",
+            BACKUP_JAR
+        ],
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
         "parses": [

@@ -1,5 +1,8 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
+  "spider": [
+    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/duhe.jar"
+  ],
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
@@ -26,6 +29,19 @@
     {
       "key": "jar_玩偶哥哥",
       "name": "👽玩偶哥哥┃4K网盘",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "jar2_玩偶哥哥",
+      "name": "📦玩偶哥哥┃4K网盘备份",
       "type": 3,
       "api": "csp_WoGGGuard",
       "timeout": 30,
@@ -261,6 +277,17 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
+    },
+    {
+      "key": "jar2_荐片",
+      "name": "📦荐片┃JAR备份",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://api.ztcgi.com"
     },
     {
       "key": "drpy_360影视",
@@ -510,10 +537,10 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T05:29:43.024636",
+  "_lastUpdate": "2026-08-29T05:34:11.958345",
   "_stats": {
     "drpy_sources": 6,
-    "jar_sources": 26,
+    "jar_sources": 28,
     "cms_sources": 6
   }
 }
