@@ -136,14 +136,12 @@ def generate():
         "ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"],
         "lives": [
             # 主列表：保留用户提供的全部新闻频道及其备用地址
-            {"name":"新闻直播┃主列表","type":0,"url":"https://angusyang66669999.github.io/TV/live.m3u?v=883","playerType":2},
+            {"name":"新闻直播┃主列表","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/news.m3u","playerType":2},
             # 补充列表：公开 IPv4 频道，提供主列表之外的备用线路
             {"name":"新闻直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/languages/zho.m3u","playerType":2},
             {"name":"新闻直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2}
-            ,{"name":"台湾频道┃测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-test.m3u","playerType":2}
-            ,{"name":"台湾频道┃RTMP测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-rtmp-test.m3u","playerType":2}
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {

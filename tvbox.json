@@ -536,7 +536,7 @@
     {
       "name": "新闻直播┃主列表",
       "type": 0,
-      "url": "https://angusyang66669999.github.io/TV/live.m3u?v=883",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/news.m3u",
       "playerType": 2
     },
     {
@@ -562,21 +562,9 @@
       "type": 0,
       "url": "https://iptv-org.github.io/iptv/languages/zho.m3u",
       "playerType": 2
-    },
-    {
-      "name": "台湾频道┃测试",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-test.m3u",
-      "playerType": 2
-    },
-    {
-      "name": "台湾频道┃RTMP测试",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-rtmp-test.m3u",
-      "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T06:40:14.930102",
+  "_lastUpdate": "2026-08-29T06:45:31.470256",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,
