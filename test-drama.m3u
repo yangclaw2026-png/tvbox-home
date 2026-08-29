@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="少年包青天" group-title="轮播测试",少年包青天
+http://74.91.26.218:82/live/vlsnbqt.m3u8
+#EXTINF:-1 tvg-name="TVB星河國語" group-title="轮播测试",TVB星河國語
+http://74.91.26.218:82/live/tvbxh.m3u8
