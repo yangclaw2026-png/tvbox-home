@@ -1,8 +1,5 @@
 {
-  "spider": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/duhe.jar",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fantaiying.jar"
-  ],
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
@@ -64,6 +61,42 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
+    },
+    {
+      "key": "jar_八宝",
+      "name": "🐱八宝",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "jar_玩偶哥哥",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.com/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "jar_多多",
+      "name": "🎯多多┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
     },
     {
       "key": "cms_光速资源",
@@ -229,10 +262,10 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T03:30:51.262425",
+  "_lastUpdate": "2026-08-29T03:50:46.974528",
   "_stats": {
     "drpy_sources": 6,
-    "jar_sources": 0,
+    "jar_sources": 3,
     "cms_sources": 6
   }
 }

@@ -8,8 +8,7 @@ OUTPUT_FILE = Path("tvbox.json")
 
 BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
 DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"  # hjdhnx版本,依赖已替换为gh-proxy绝对URL
-JAR_DUHE = f"{BASE_URL}/jar/duhe.jar"
-JAR_FTY = f"{BASE_URL}/jar/fantaiying.jar"
+SPIDER_JAR = f"{BASE_URL}/jar/fan.txt"  # 饭太硬 JAR (改名为 .txt)
 
 def js(name):
     return f"{BASE_URL}/js/{name}.js"
@@ -23,6 +22,11 @@ def generate():
         {"key":"drpy_茶杯狐","name":"🦊茶杯狐┃聚合","type":3,"api":DRPY_RUNTIME,"ext":js("茶杯狐"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
+
+        # === JAR 源（饭太硬）===
+        {"key":"jar_八宝","name":"🐱八宝","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
+        {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
 
         # === CMS 源（搜索用）===
     ]
@@ -55,7 +59,7 @@ def generate():
     jar_count = len([s for s in sites if s.get("type") == 3 and "jar" in s.get("key", "")])
     
     config = {
-        "spider": [JAR_DUHE, JAR_FTY],
+        "spider": f"{SPIDER_JAR};md5;608d621640f5ed5ae8c78158ca61bff7",
         "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
         "sites": sites,
         "parses": [
