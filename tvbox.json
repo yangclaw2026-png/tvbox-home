@@ -564,13 +564,13 @@
       "playerType": 2
     },
     {
-      "name": "Bloomberg┃新链路测试",
+      "name": "Bloomberg┃待补链路",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg-test.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u",
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T07:05:08.341121",
+  "_lastUpdate": "2026-08-29T07:11:05.990930",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,
