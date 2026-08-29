@@ -7,7 +7,7 @@ SOURCES_FILE = Path("scripts/sources.json")
 OUTPUT_FILE = Path("tvbox.json")
 
 BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
-DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"  # hjdhnx版本,依赖本地jsencrypt.js/gbk.js/模板.js
+DRPY_RUNTIME = f"{BASE_URL}/lib/drpy-core.min.js"  # hjdhnx webpack单文件版,无外部依赖
 JAR_DUHE = f"{BASE_URL}/jar/duhe.jar"
 JAR_FTY = f"{BASE_URL}/jar/fantaiying.jar"
 
