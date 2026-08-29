@@ -1,0 +1,73 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera English" group-title="国际新闻",Al Jazeera English
+https://epg.pw/stream/db814d86b7087eb2db861a406c8b0809a369f6d8a5146389932af3148c0c1091.m3u8
+#EXTINF:-1 tvg-name="BBC World News" group-title="国际新闻",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-name="CNN International" group-title="国际新闻",CNN International
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-name="ABC" group-title="国际新闻",ABC
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-name="ABC News Live" group-title="国际新闻",ABC News Live
+https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index.m3u8
+#EXTINF:-1 tvg-name="CNBC EN" group-title="国际新闻",CNBC EN
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+#EXTINF:-1 tvg-name="CNBC EN" group-title="国际新闻",CNBC EN
+http://nmk.ioapk.com:5050/4gtv-live130/index.m3u8
+#EXTINF:-1 tvg-name="CNBC UK" group-title="国际新闻",CNBC UK
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="CNBC Mongolia" group-title="国际新闻",CNBC Mongolia
+https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
+#EXTINF:-1 tvg-name="CNA" group-title="国际新闻",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+https://live.catvod.com/live.php?token=815e29cc8c01a08e58b6bc1f59358054ad9a6f8a4f65ad2ebe535c7da196a77e&id=phoenixinfo_hd
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+https://live.catvod.com/iptv.php?id=phzx01
+#EXTINF:-1 tvg-name="台视" group-title="台湾新闻",台视
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 tvg-name="中视" group-title="台湾新闻",中视
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-name="华视" group-title="台湾新闻",华视
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-name="民视" group-title="台湾新闻",民视
+rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 tvg-name="东森超视" group-title="台湾新闻",东森超视
+rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 tvg-name="非凡新闻" group-title="台湾新闻",非凡新闻
+rtmp://f13h.mine.nu/sat/tv581
+#EXTINF:-1 tvg-name="MOMO综合" group-title="台湾频道",MOMO综合
+rtmp://f13h.mine.nu:1935/sat/tv761
+#EXTINF:-1 tvg-name="纬来日本" group-title="台湾频道",纬来日本
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 tvg-name="纬来育乐" group-title="台湾频道",纬来育乐
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 tvg-name="纬来体育" group-title="台湾频道",纬来体育
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 tvg-name="周星驰电影" group-title="电影轮播",周星驰电影
+https://live.metshop.top/huya/11342412
+#EXTINF:-1 tvg-name="成龙电影" group-title="电影轮播",成龙电影
+https://live.metshop.top/huya/11342386
+#EXTINF:-1 tvg-name="李连杰电影" group-title="电影轮播",李连杰电影
+https://live.metshop.top/huya/11342390
+#EXTINF:-1 tvg-name="刘德华电影" group-title="电影轮播",刘德华电影
+https://live.metshop.top/huya/11342424
+#EXTINF:-1 tvg-name="经典喜剧电影" group-title="电影轮播",经典喜剧电影
+http://live.metshop.top/huya/11602044?cdn=alicdn
+#EXTINF:-1 tvg-name="功夫电影" group-title="电影轮播",功夫电影
+https://live.metshop.top/huya/11352941
+#EXTINF:-1 tvg-name="战争电影" group-title="电影轮播",战争电影
+https://live.metshop.top/huya/21059574
+#EXTINF:-1 tvg-name="古天乐电影" group-title="电影轮播",古天乐电影
+https://live.metshop.top/huya/29982675
+#EXTINF:-1 tvg-name="王晶电影" group-title="电影轮播",王晶电影
+https://live.metshop.top/huya/11602058
+#EXTINF:-1 tvg-name="陀枪师姐" group-title="电视剧轮播",陀枪师姐
+https://live.metshop.top/huya/29465857
+#EXTINF:-1 tvg-name="刑事侦缉档案" group-title="电视剧轮播",刑事侦缉档案
+https://live.metshop.top/huya/29465856

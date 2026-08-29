@@ -534,9 +534,9 @@
   ],
   "lives": [
     {
-      "name": "新闻直播┃主列表",
+      "name": "八小喵┃新闻电影电视剧",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/news.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/ba-xiaomiao-live.m3u",
       "playerType": 2
     },
     {
@@ -568,15 +568,9 @@
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u",
       "playerType": 2
-    },
-    {
-      "name": "电影电视剧┃轮播测试",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/entertainment-test.m3u",
-      "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T08:10:16.394402",
+  "_lastUpdate": "2026-08-29T08:11:37.921557",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,
