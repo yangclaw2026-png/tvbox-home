@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="CHC电影频道",CHC家庭影院
+http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="CHC电影频道",CHC动作电影
+http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC影迷电影" group-title="CHC电影频道",CHC影迷电影
+http://38.75.136.137:98/gslb/dsdqpub/chcym.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC高清电影" group-title="CHC电影频道",CHC高清电影
+http://38.75.136.137:98/gslb/dsdqpub/chcgd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC喜剧电影" group-title="CHC电影频道",CHC喜剧电影
+http://38.75.136.137:98/gslb/dsdqpub/chcxj.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC爱情电影" group-title="CHC电影频道",CHC爱情电影
+http://38.75.136.137:98/gslb/dsdqpub/chcaq.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC武侠电影" group-title="CHC电影频道",CHC武侠电影
+http://38.75.136.137:98/gslb/dsdqpub/chcwx.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC悬疑电影" group-title="CHC电影频道",CHC悬疑电影
+http://38.75.136.137:98/gslb/dsdqpub/chcxy.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC恐怖电影" group-title="CHC电影频道",CHC恐怖电影
+http://38.75.136.137:98/gslb/dsdqpub/chckb.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC动画电影" group-title="CHC电影频道",CHC动画电影
+http://38.75.136.137:98/gslb/dsdqpub/chcdh.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC港台电影" group-title="CHC电影频道",CHC港台电影
+http://38.75.136.137:98/gslb/dsdqpub/chcgt.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC欧美电影" group-title="CHC电影频道",CHC欧美电影
+http://38.75.136.137:98/gslb/dsdqpub/chcom.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC日韩电影" group-title="CHC电影频道",CHC日韩电影
+http://38.75.136.137:98/gslb/dsdqpub/chcrh.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC国产电影" group-title="CHC电影频道",CHC国产电影
+http://38.75.136.137:98/gslb/dsdqpub/chcgc.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CHC经典电影" group-title="CHC电影频道",CHC经典电影
+http://38.75.136.137:98/gslb/dsdqpub/chcjd.m3u8?auth=testpub
