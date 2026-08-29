@@ -1,0 +1,37 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="台视" group-title="台湾RTMP测试",台视
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 tvg-name="台视" group-title="台湾RTMP测试",台视 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv071
+#EXTINF:-1 tvg-name="中视" group-title="台湾RTMP测试",中视
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-name="中视" group-title="台湾RTMP测试",中视 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv091
+#EXTINF:-1 tvg-name="华视" group-title="台湾RTMP测试",华视
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-name="民视" group-title="台湾RTMP测试",民视
+rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 tvg-name="东森超视" group-title="台湾RTMP测试",东森超视
+rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 tvg-name="非凡新闻" group-title="台湾RTMP测试",非凡新闻
+rtmp://f13h.mine.nu/sat/tv581
+#EXTINF:-1 tvg-name="中天新闻" group-title="台湾RTMP测试",中天新闻01
+rtmp://123.156.165.47/live/yifatv-ztxw01
+#EXTINF:-1 tvg-name="中天新闻" group-title="台湾RTMP测试",中天新闻02
+rtmp://123.156.165.47/live/yifatv-ztxw02
+#EXTINF:-1 tvg-name="MOMO综合" group-title="台湾RTMP测试",MOMO综合
+rtmp://f13h.mine.nu:1935/sat/tv761
+#EXTINF:-1 tvg-name="纬来日本" group-title="台湾RTMP测试",纬来日本
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 tvg-name="纬来育乐" group-title="台湾RTMP测试",纬来育乐
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 tvg-name="纬来体育" group-title="台湾RTMP测试",纬来体育
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 tvg-name="纬来体育" group-title="台湾RTMP测试",纬来体育 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv721
+#EXTINF:-1 tvg-name="东森超视" group-title="台湾RTMP测试",东森超视 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv331
+#EXTINF:-1 tvg-name="民视" group-title="台湾RTMP测试",民视 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv051
+#EXTINF:-1 tvg-name="非凡新闻" group-title="台湾RTMP测试",非凡新闻 1935端口
+rtmp://f13h.mine.nu:1935/sat/tv581

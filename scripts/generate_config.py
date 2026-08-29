@@ -143,6 +143,7 @@ def generate():
             {"name":"新闻直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2}
             ,{"name":"台湾频道┃测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-test.m3u","playerType":2}
+            ,{"name":"台湾频道┃RTMP测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/taiwan-rtmp-test.m3u","playerType":2}
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
