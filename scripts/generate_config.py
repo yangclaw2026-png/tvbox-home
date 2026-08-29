@@ -24,7 +24,7 @@ def generate():
         {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
 
         # === JAR 源（饭太硬）===
-        {"key":"jar_八宝","name":"🐱八宝","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"jar_八小喵","name":"🐱八小喵","type":3,"api":"csp_DouDouGuard","searchable":1,"quickSearch":1,"changeable":0},
         {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
         {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
 
@@ -75,28 +75,28 @@ def generate():
                 "regex":["更多","社区","最新","直播","更新","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"],
                 "script":[]
             },
-            {
-                "name":"暴风广告",
-                "hosts":["bfzy"],
-                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"],
+{
+                "name":"量子广告",
+                "hosts":["vip.lz","hd.lz","v.cdnlz","*"],
+                "regex":["18.5333","新葡京","xinpujing","澳门","娱乐城","8888","9999"],
                 "script":[]
             },
             {
-                "name":"量子广告",
-                "hosts":["vip.lz","hd.lz","v.cdnlz"],
-                "regex":["18.5333"],
+                "name":"暴风广告",
+                "hosts":["bfzy","*"],
+                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","新葡京","xinpujing","澳门","娱乐城","8888","9999"],
                 "script":[]
             },
             {
                 "name":"非凡广告",
-                "hosts":["vip.ffzy","hd.ffzy"],
-                "regex":["25.1"],
+                "hosts":["vip.ffzy","hd.ffzy","*"],
+                "regex":["25.1","新葡京","xinpujing","澳门","娱乐城"],
                 "script":[]
             },
             {
                 "name":"光速广告",
-                "hosts":["guangsu","api.guangsu"],
-                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"],
+                "hosts":["guangsu","api.guangsu","*"],
+                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","新葡京","xinpujing","澳门","娱乐城"],
                 "script":[]
             },
             {
