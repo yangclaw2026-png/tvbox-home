@@ -566,11 +566,11 @@
     {
       "name": "台湾频道┃测试",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/live/taiwan-test.m3u",
+      "url": "https://github.com/yangclaw2026-png/tvbox-home/raw/refs/heads/main/live/taiwan-test.m3u",
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T06:29:33.390675",
+  "_lastUpdate": "2026-08-29T06:30:34.175358",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,
