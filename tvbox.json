@@ -1,8 +1,5 @@
 {
-  "spider": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/duhe.jar"
-  ],
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
@@ -536,7 +533,7 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T05:38:25.341728",
+  "_lastUpdate": "2026-08-29T05:40:28.449773",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,
