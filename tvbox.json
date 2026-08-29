@@ -144,6 +144,16 @@
       "changeable": 1
     },
     {
+      "key": "jar_荐片",
+      "name": "🥝荐片┃饭太硬JAR",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "jar_热播",
       "name": "📺热播┃多线",
       "type": 3,
@@ -537,10 +547,10 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T05:34:11.958345",
+  "_lastUpdate": "2026-08-29T05:35:02.434848",
   "_stats": {
     "drpy_sources": 6,
-    "jar_sources": 28,
+    "jar_sources": 29,
     "cms_sources": 6
   }
 }

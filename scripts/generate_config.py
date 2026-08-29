@@ -32,6 +32,7 @@ def generate():
         {"key":"jar_比特","name":"🍄比特┃多线","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_糯米","name":"🍓糯米┃多线","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_文采","name":"💮文采┃多线","type":3,"api":"csp_JpysGuard","searchable":1,"quickSearch":1,"changeable":1},
+        {"key":"jar_荐片","name":"🥝荐片┃饭太硬JAR","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"jar_热播","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_视界","name":"🌸视界┃多线","type":3,"api":"csp_App99Guard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_播客","name":"🦊播客┃多线","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1},
