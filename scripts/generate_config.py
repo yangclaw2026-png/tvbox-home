@@ -141,7 +141,8 @@ def generate():
             {"name":"新闻直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/languages/zho.m3u","playerType":2},
             {"name":"新闻直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/categories/news.m3u","playerType":2},
-            {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2}
+            {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2},
+            {"name":"Bloomberg┃测试","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg-test.m3u","playerType":2}
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {
