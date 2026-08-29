@@ -16,23 +16,15 @@ def js(name):
 
 def generate():
     sites = [
-        {"key":"drpy_八小喵","name":"🐱八小喵","type":3,"api":DRPY_RUNTIME,"ext":js("LIBVIO"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_玩偶哥哥","name":"👽玩偶哥哥┃4K","type":3,"api":DRPY_RUNTIME,"ext":js("玩偶哥哥"),"searchable":1,"quickSearch":1,"changeable":0},
+        # === DRPY 源（已验证可用）===
+        {"key":"drpy_360影视","name":"📺360影视┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("360影视"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_腾云驾雾","name":"🐧腾讯视频┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("腾云驾雾"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_百忙无果","name":"🥭芒果TV┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("百忙无果"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_茶杯狐","name":"🦊茶杯狐┃聚合","type":3,"api":DRPY_RUNTIME,"ext":js("茶杯狐"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
 
-        {"key":"jar_玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
-        {"key":"jar_多多","name":"🎯多多┃4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"},
-        {"key":"jar2_玩偶哥哥","name":"📦玩偶哥哥┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
-        {"key":"jar2_多多","name":"📦多多┃4K备份","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.duoduokan.com/","danMu":"弹"}},
-
-        {"key":"drpy_快看","name":"🎬快看┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("快看"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_爱看","name":"👀爱看┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("爱看"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_酷云77","name":"☁️酷云77┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("酷云77"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_南瓜影视","name":"🎃南瓜影视","type":3,"api":DRPY_RUNTIME,"ext":js("南瓜影视"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_量子影视","name":"⚛️量子影视","type":3,"api":DRPY_RUNTIME,"ext":js("量子影视"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_Auete","name":"🏝Auete┃多线","type":3,"api":DRPY_RUNTIME,"ext":js("Auete"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_cokemv","name":"🍫cokemv┃高清","type":3,"api":DRPY_RUNTIME,"ext":js("cokemv"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
+        # === CMS 源（搜索用）===
     ]
     
     sources_data = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
