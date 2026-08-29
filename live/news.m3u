@@ -21,10 +21,16 @@ https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlis
 https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-name="CNA" group-title="国际新闻",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-name="Bloomberg" group-title="国际新闻",Bloomberg
-http://vasilius.akciatv.ru/iptv/RGD5Y7ZWRWP4UK/6465/index.m3u8
-#EXTINF:-1 tvg-name="Bloomberg" group-title="国际新闻",Bloomberg
-https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
+#EXTINF:-1 tvg-name="Bloomberg Asia" group-title="国际新闻",Bloomberg Asia
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 tvg-name="Bloomberg Europe" group-title="国际新闻",Bloomberg Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-name="Bloomberg US" group-title="国际新闻",Bloomberg US
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-name="Bloomberg Politics" group-title="国际新闻",Bloomberg Politics
+https://bloomberg.com/media-manifest/streams/politics.m3u8
+#EXTINF:-1 tvg-name="Bloomberg TV Plus" group-title="国际新闻",Bloomberg TV Plus
+https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
