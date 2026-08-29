@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="台视" group-title="台湾测试",台视
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 tvg-name="中视" group-title="台湾测试",中视
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-name="华视" group-title="台湾测试",华视
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-name="民视" group-title="台湾测试",民视
+rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 tvg-name="东森超视" group-title="台湾测试",东森超视
+rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 tvg-name="非凡新闻" group-title="台湾测试",非凡新闻
+rtmp://f13h.mine.nu/sat/tv581
