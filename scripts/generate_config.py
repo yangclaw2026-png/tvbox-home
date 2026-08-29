@@ -32,7 +32,6 @@ def generate():
         {"key":"jar_比特","name":"🍄比特┃多线","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_糯米","name":"🍓糯米┃多线","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_文采","name":"💮文采┃多线","type":3,"api":"csp_JpysGuard","searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"jar_荐片","name":"🥝荐片┃饭太硬JAR","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"jar_热播","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_视界","name":"🌸视界┃多线","type":3,"api":"csp_App99Guard","searchable":1,"quickSearch":1,"changeable":1},
         {"key":"jar_播客","name":"🦊播客┃多线","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1},
@@ -46,7 +45,6 @@ def generate():
         {"key":"jar_盘他","name":"🐞盘他┃嘟嘟","type":3,"api":"csp_BpanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
         {"key":"jar_抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
         {"key":"jar_UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":JAR_CLOUD},
-        {"key":"jar2_荐片","name":"📦荐片┃JAR备份","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"changeable":0,"ext":"https://api.ztcgi.com"},
 
         # === DRPY 源（官方源）===
         {"key":"drpy_360影视","name":"📺360影视┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("360影视"),"searchable":1,"quickSearch":1,"changeable":0},
@@ -54,7 +52,8 @@ def generate():
         {"key":"drpy_百忙无果","name":"🥭芒果TV┃官源","type":3,"api":DRPY_RUNTIME,"ext":js("百忙无果"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_茶杯狐","name":"🦊茶杯狐┃聚合","type":3,"api":DRPY_RUNTIME,"ext":js("茶杯狐"),"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"drpy_voflix","name":"🌊voflix┃热播","type":3,"api":DRPY_RUNTIME,"ext":js("voflix"),"searchable":1,"quickSearch":1,"changeable":0},
-        {"key":"drpy_荐片","name":"🥝荐片┃磁力","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"drpy_荐片","name":"🥝荐片┃主链路","type":3,"api":DRPY_RUNTIME,"ext":js("荐片_new"),"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"jar_荐片_fan","name":"🥝荐片┃饭太硬备用","type":3,"api":"csp_JPJGuard","playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
 
         # === CMS 源（搜索用）===
     ]

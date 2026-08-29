@@ -144,16 +144,6 @@
       "changeable": 1
     },
     {
-      "key": "jar_荐片",
-      "name": "🥝荐片┃饭太硬JAR",
-      "type": 3,
-      "api": "csp_JPJGuard",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "jar_热播",
       "name": "📺热播┃多线",
       "type": 3,
@@ -289,17 +279,6 @@
       }
     },
     {
-      "key": "jar2_荐片",
-      "name": "📦荐片┃JAR备份",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://api.ztcgi.com"
-    },
-    {
       "key": "drpy_360影视",
       "name": "📺360影视┃官源",
       "type": 3,
@@ -351,10 +330,20 @@
     },
     {
       "key": "drpy_荐片",
-      "name": "🥝荐片┃磁力",
+      "name": "🥝荐片┃主链路",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/荐片_new.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "jar_荐片_fan",
+      "name": "🥝荐片┃饭太硬备用",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -547,10 +536,10 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-08-29T05:35:02.434848",
+  "_lastUpdate": "2026-08-29T05:38:25.341728",
   "_stats": {
     "drpy_sources": 6,
-    "jar_sources": 29,
+    "jar_sources": 28,
     "cms_sources": 6
   }
 }
