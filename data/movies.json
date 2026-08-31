@@ -408,17 +408,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 143672,
-      "vod_name": "潮汐低语",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260813-1/c000107da89e3214be0dfc9e6af47800.jpg",
-      "vod_year": "2025",
-      "vod_area": "中国香港",
-      "vod_remarks": "7.4分",
-      "vod_class": "剧情片",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 141660,
       "vod_name": "集中营里的摄影师",
       "vod_pic": "https://dbzy5.com/upload/vod/20260731-1/d79d3eb0a110e936235c6f4da5ee7a3f.jpg",
@@ -547,6 +536,17 @@
       "vod_area": "美国",
       "vod_remarks": "7.1分",
       "vod_class": "科幻片",
+      "rating": "7.1",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 52316,
+      "vod_name": "蓝与黑续集",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250107-18/ec84a416719d7b890b126a408226e9bb.jpg",
+      "vod_year": "1966",
+      "vod_area": "中国香港",
+      "vod_remarks": "7.1分",
+      "vod_class": "战争片",
       "rating": "7.1",
       "source": "豆瓣资源"
     }
