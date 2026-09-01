@@ -23,17 +23,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 141958,
-      "vod_name": "无界之环",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260803-1/ced6148635a350e12c452087b060762d.jpg",
-      "vod_year": "2025",
-      "vod_area": "英国",
-      "vod_remarks": "8.6分",
-      "vod_class": "喜剧片",
-      "rating": "8.6",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 42321,
       "vod_name": "天国王朝",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-8/f1299c9128eb0b0868a4291e71cec8d3.jpg",
@@ -548,6 +537,17 @@
       "vod_remarks": "7.1分",
       "vod_class": "战争片",
       "rating": "7.1",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 74098,
+      "vod_name": "倒霉日",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250211-1/a48c8f32a9176938903cf5036fb3aa97.jpg",
+      "vod_year": "2025",
+      "vod_area": "美国",
+      "vod_remarks": "7.0分",
+      "vod_class": "喜剧片",
+      "rating": "7.0",
       "source": "豆瓣资源"
     }
   ],
