@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰卫视",凤凰资讯 (101.35 Kimentanm)
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 tvg-name="凤凰中文台" group-title="凤凰卫视",凤凰中文台 (101.35 Kimentanm)
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 tvg-name="凤凰香港" group-title="凤凰卫视",凤凰香港 (101.35 Kimentanm)
+http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰卫视",凤凰资讯 (218.104)
 http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="凤凰中文台" group-title="凤凰卫视",凤凰中文台 (218.104)
