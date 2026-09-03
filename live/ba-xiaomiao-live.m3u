@@ -22,13 +22,9 @@ https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-name="CNA" group-title="国际新闻",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
 http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
-https://live.catvod.com/live.php?token=815e29cc8c01a08e58b6bc1f59358054ad9a6f8a4f65ad2ebe535c7da196a77e&id=phoenixinfo_hd
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
-https://live.catvod.com/iptv.php?id=phzx01
+#EXTINF:-1 tvg-name="凤凰中文台" group-title="中文新闻",凤凰中文台
+http://218.104.239.114:9901/tsfile/live/1013_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="台视" group-title="台湾新闻",台视
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-name="中视" group-title="台湾新闻",中视
