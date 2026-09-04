@@ -1,6 +1,5 @@
 {
   "spider": "./jar/fan.txt;md5;608d621640f5ed5ae8c78158ca61bff7",
-  "name": "八小喵",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
     {
@@ -571,7 +570,7 @@
       "playerType": 2
     }
   ],
-  "_lastUpdate": "2026-09-01T07:05:30.000253",
+  "_lastUpdate": "2026-09-04T06:50:11.358804",
   "_stats": {
     "drpy_sources": 6,
     "jar_sources": 28,

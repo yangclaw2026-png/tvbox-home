@@ -188,17 +188,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 41742,
-      "vod_name": "X特遣队：全员集结",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-8/7c233fd1c69b070e96d533e82801896e.jpg",
-      "vod_year": "2021",
-      "vod_area": "美国,加拿大,英国",
-      "vod_remarks": "8.0分",
-      "vod_class": "科幻片",
-      "rating": "8.0",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 37430,
       "vod_name": "警戒结束",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-38/390302faf8fb561ac102f6ffbd2e5e3c.jpg",
@@ -545,6 +534,17 @@
       "vod_pic": "https://dbzy5.com/upload/vod/20250211-1/a48c8f32a9176938903cf5036fb3aa97.jpg",
       "vod_year": "2025",
       "vod_area": "美国",
+      "vod_remarks": "7.0分",
+      "vod_class": "喜剧片",
+      "rating": "7.0",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 138037,
+      "vod_name": "性爱狂想曲",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260701-1/b1aa911df60f4517362b758f9897fccb.jpg",
+      "vod_year": "1994",
+      "vod_area": "日本",
       "vod_remarks": "7.0分",
       "vod_class": "喜剧片",
       "rating": "7.0",
