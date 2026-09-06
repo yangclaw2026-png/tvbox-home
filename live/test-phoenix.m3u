@@ -1,7 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰卫视",凤凰资讯 (218.104)
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰资讯测试",凤凰资讯 (61.221)
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰资讯测试",凤凰资讯 (218.104)
 http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-name="凤凰中文台" group-title="凤凰卫视",凤凰中文台 (218.104)
-http://218.104.239.114:9901/tsfile/live/1013_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-name="凤凰香港" group-title="凤凰卫视",凤凰香港 (catvod)
-https://live.catvod.com/iptv.php?id=phhk01
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰资讯测试",凤凰资讯 (tvbj)
+https://itv.tvbj.dpdns.org/proxy.php/live/test2_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰资讯测试",凤凰资讯 (catvod)
+https://live.catvod.com/live.php?token=815e29cc8c01a08e58b6bc1f59358054ad9a6f8a4f65ad2ebe535c7da196a77e&id=phoenixinfo_hd
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰资讯测试",凤凰资讯 (221.7)
+http://221.7.175.154:85/tsfile/live/1021_1.m3u8?key=txiptv
