@@ -1,0 +1,39 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="CCTV1综合" group-title="CCTV",CCTV1综合 (BD)
+https://stream1.freetv.fun/995b83478c4c70b15ba27c4a49a23df6f859abbc68948a118e5734a8f1c1c1db.m3u8
+#EXTINF:-1 tvg-name="CCTV1综合" group-title="CCTV",CCTV1综合 (HD)
+https://stream1.freetv.fun/7bcb9055df8789fe1d3ab53c3907e5a0aac9ecd18c827a5c94148e850d9ab4fe.m3u8
+#EXTINF:-1 tvg-name="CCTV1综合" group-title="CCTV",CCTV1综合 (4K)
+https://stream1.freetv.fun/5d4213276b9703523ca4f8cbf694ad036106486cfa7c37443a8385da27dd3feb.m3u8
+#EXTINF:-1 tvg-name="CCTV9纪录" group-title="CCTV",CCTV9纪录 (HD)
+https://stream1.freetv.fun/bac2107c8204c290efc6c6224146418641af787e31995157d64d567afbc00279.m3u8
+#EXTINF:-1 tvg-name="CCTV12社会与法" group-title="CCTV",CCTV12社会与法 (BD)
+https://stream1.freetv.fun/8fec588fa09e356552f56f5e64a875f44c72f6ef785b0d2b4bbd6527f64e804e.ctv
+#EXTINF:-1 tvg-name="翡翠台" group-title="香港台",翡翠台 (BD)
+https://stream1.freetv.fun/829b7e0470319a0e8fff9a9cc0eccdf0f87d0785005387b2a9f38fd9c7cde69c.ctv
+#EXTINF:-1 tvg-name="TVB Plus" group-title="香港台",TVB Plus (BD)
+https://stream1.freetv.fun/5c71ddc1ee039d8057898c807e9cda2dfc61c7534d017fbf7c0de04c5c58c890.ctv
+#EXTINF:-1 tvg-name="TVB星河" group-title="香港台",TVB星河 (BD)
+https://stream1.freetv.fun/1014774338dd6fcc6e3c0358712f55964ae23ffb1c8ff3a246979c2583fadff1.ctv
+#EXTINF:-1 tvg-name="明珠台" group-title="香港台",明珠台 (BD)
+https://stream1.freetv.fun/d1da08cd35d96f944f0ab0c0cc5ed0ee74e753f8fd9cbcb4c56e15d46ce3993a.ctv
+#EXTINF:-1 tvg-name="港台电视31" group-title="香港台",港台电视31 (BD)
+https://stream1.freetv.fun/0944303b14a2d9fe9751c01ff6489d423d7af691892bafdd8bb2f150cf97726c.ctv
+#EXTINF:-1 tvg-name="港台电视32" group-title="香港台",港台电视32 (BD)
+https://stream1.freetv.fun/83565c6d94867f316dad35ee685de5a9b658b08c4f90bcea5305e2a72c394fcf.ctv
+#EXTINF:-1 tvg-name="星空卫视" group-title="香港台",星空卫视 (BD)
+https://stream1.freetv.fun/c699f8d5e9d547dd164dd3f4990d2974ef3fa73b3f4f82678fa854610dd0edff.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视" group-title="凤凰卫视",凤凰卫视FHD (BD)
+https://stream1.freetv.fun/f1e44625fc48fbc7e1c48624be96ee4d73d94f865791bc4eae6a4788c9aafc21.m3u8
+#EXTINF:-1 tvg-name="凤凰中文台" group-title="凤凰卫视",凤凰中文台 (BD)
+https://stream1.freetv.fun/9af7ba5bbdf6641cf12253e1112bff185278bce6b4890b2cf8a38d8f3aa909bd.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="凤凰卫视",凤凰资讯 (BD)
+https://stream1.freetv.fun/320c213f4bb29b607f6c659b2a94918fc7f922c996ede3738fdff2ab9bd90217.m3u8
+#EXTINF:-1 tvg-name="凤凰电影" group-title="凤凰卫视",凤凰电影 (BD)
+https://stream1.freetv.fun/eb5c379a2d045382ce7f8ffa78e5b7d184a3c44fffe574d72e3fab54a7d696f7.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids" group-title="其他",Discovery Kids (HD)
+https://stream1.freetv.fun/bb7f1ff370bc4f3fedd17c6a6745f85c3ff4d805f979f661e5e3f5631e8e0bd7.m3u8
+#EXTINF:-1 tvg-name="MOVIE MOVIE" group-title="其他",MOVIE MOVIE (BD)
+https://stream1.freetv.fun/c8e95c800f2f34c6c707f8b240a88dc0e87c3f28b17754b0922b48d5cde7bb7a.m3u8
+#EXTINF:-1 tvg-name="now Sports Prime" group-title="其他",now Sports Prime (BD)
+https://stream1.freetv.fun/e6a2e56b74d1d5290d8219e1973f4b7b0bf1e85e98130a210eade1ede67360ef.m3u8
