@@ -25,6 +25,8 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m
 http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
 http://221.7.175.154:85/tsfile/live/1021_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+http://zqjy.info/tv/ODExMjk3?channel=%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF
 #EXTINF:-1 tvg-name="凤凰中文台" group-title="中文新闻",凤凰中文台
 http://218.104.239.114:9901/tsfile/live/1013_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="台视" group-title="台湾新闻",台视
