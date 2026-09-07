@@ -89,28 +89,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 129233,
-      "vod_name": "挽救计划 普通话",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260421-1/bf63e7e41c03d75195b3ca22a09451fc.jpg",
-      "vod_year": "2026",
-      "vod_area": "美国",
-      "vod_remarks": "8.5分",
-      "vod_class": "剧情片",
-      "rating": "8.5",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 126262,
-      "vod_name": "挽救计划 原声版",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260323-1/19951ce4bdad8b43e8ee01f9dc92c89d.jpg",
-      "vod_year": "2026",
-      "vod_area": "美国",
-      "vod_remarks": "8.5分",
-      "vod_class": "剧情片",
-      "rating": "8.5",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 52517,
       "vod_name": "逃离索比堡",
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-18/cbc095e3a10f7dd1b8d996fab5ea73ba.jpg",
@@ -119,17 +97,6 @@
       "vod_remarks": "8.5分",
       "vod_class": "战争片",
       "rating": "8.5",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 22,
-      "vod_name": "72小时",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250109-6/f980aac6379812c9610d011b53a476cf.jpg",
-      "vod_year": "2024",
-      "vod_area": "美国",
-      "vod_remarks": "8.4分",
-      "vod_class": "动作片",
-      "rating": "8.4",
       "source": "豆瓣资源"
     },
     {
@@ -207,17 +174,6 @@
       "vod_remarks": "7.9分",
       "vod_class": "科幻片",
       "rating": "7.9",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 141487,
-      "vod_name": "蜘蛛侠：崭新之日",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260730-1/46f3615278b06564466d56d8e7d67882.jpg",
-      "vod_year": "2026",
-      "vod_area": "美国",
-      "vod_remarks": "7.8分",
-      "vod_class": "动作片",
-      "rating": "7.8",
       "source": "豆瓣资源"
     },
     {
@@ -485,6 +441,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 147958,
+      "vod_name": "空枪",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260905-1/d053d60b9c7139fb487a95985a36f214.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆,中国香港",
+      "vod_remarks": "7.2分",
+      "vod_class": "剧情片",
+      "rating": "7.2",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 27336,
       "vod_name": "热血街区电影版：极恶王 续篇",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-48/64713247a5ed1d7aa80754b9e4668aa1.jpg",
@@ -548,6 +515,39 @@
       "vod_remarks": "7.0分",
       "vod_class": "喜剧片",
       "rating": "7.0",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 141996,
+      "vod_name": "夺金三王",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260803-1/f3e63829741ba5dc334cf5937775c6ff.jpg",
+      "vod_year": "1999",
+      "vod_area": "美国",
+      "vod_remarks": "7.0分",
+      "vod_class": "喜剧片",
+      "rating": "7.0",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 48649,
+      "vod_name": "自然城市",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-1/4ec527974993f65ae1d440215427a488.jpg",
+      "vod_year": "2003",
+      "vod_area": "韩国",
+      "vod_remarks": "7.0分",
+      "vod_class": "科幻片",
+      "rating": "7.0",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 137767,
+      "vod_name": "银河奥特曼S剧场版： 决战！奥特10勇士",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260629-1/a0da3f8020b1f2573166f5ed2f814b8f.jpg",
+      "vod_year": "2015",
+      "vod_area": "日本",
+      "vod_remarks": "6.9分",
+      "vod_class": "科幻片",
+      "rating": "6.9",
       "source": "豆瓣资源"
     }
   ],

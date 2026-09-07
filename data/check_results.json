@@ -8,31 +8,31 @@
   {
     "name": "红牛资源",
     "status": "ok",
-    "latency": 419,
+    "latency": 444,
     "type": ""
   },
   {
     "name": "量子资源",
     "status": "ok",
-    "latency": 850,
+    "latency": 754,
     "type": ""
   },
   {
     "name": "非凡资源",
     "status": "ok",
-    "latency": 1862,
+    "latency": 1783,
     "type": ""
   },
   {
     "name": "暴风资源",
     "status": "ok",
-    "latency": 609,
+    "latency": 579,
     "type": ""
   },
   {
     "name": "速播资源",
     "status": "ok",
-    "latency": 1131,
+    "latency": 432,
     "type": ""
   }
 ]
