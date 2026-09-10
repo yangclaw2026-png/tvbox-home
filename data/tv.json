@@ -408,17 +408,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 2285,
-      "vod_name": "海豹突击队 第七季",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250109-3/bd940031b70757cc5322f59232bf4fb8.jpg",
-      "vod_year": "2024",
-      "vod_area": "美国",
-      "vod_remarks": "7.7分",
-      "vod_class": "欧美剧",
-      "rating": "7.7",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 32324,
       "vod_name": "有种好男人",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-43/03b887111d1fa43d003dccc60e23036b.jpg",
@@ -514,6 +503,17 @@
       "vod_area": "中国香港",
       "vod_remarks": "7.5分",
       "vod_class": "香港剧",
+      "rating": "7.5",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 148409,
+      "vod_name": "假面骑士麦斯",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260907-1/3ce3749b04d7b8aedc6ca2b9c7db22b8.jpg",
+      "vod_year": "2026",
+      "vod_area": "日本",
+      "vod_remarks": "7.5分",
+      "vod_class": "日本剧",
       "rating": "7.5",
       "source": "豆瓣资源"
     },

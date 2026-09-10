@@ -144,17 +144,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 63488,
-      "vod_name": "龙纹身的女孩",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250107-7/c973ba1ada0a7f8a8d07a5e534b57be9.jpg",
-      "vod_year": "2011",
-      "vod_area": "美国,瑞典,挪威",
-      "vod_remarks": "8.1分",
-      "vod_class": "剧情片",
-      "rating": "8.1",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 37430,
       "vod_name": "警戒结束",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-38/390302faf8fb561ac102f6ffbd2e5e3c.jpg",
@@ -325,17 +314,6 @@
       "vod_pic": "https://dbzy5.com/upload/vod/20260820-1/062b684d2e5ccde97aa92c63676d1d6a.jpg",
       "vod_year": "2025",
       "vod_area": "中国台湾",
-      "vod_remarks": "7.4分",
-      "vod_class": "剧情片",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 144431,
-      "vod_name": "再见UFO 再見UFO",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260818-1/53a906e6ac8616d93de3a8d5cf262556.jpg",
-      "vod_year": "2019",
-      "vod_area": "中国香港",
       "vod_remarks": "7.4分",
       "vod_class": "剧情片",
       "rating": "7.4",
@@ -518,17 +496,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 141996,
-      "vod_name": "夺金三王",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260803-1/f3e63829741ba5dc334cf5937775c6ff.jpg",
-      "vod_year": "1999",
-      "vod_area": "美国",
-      "vod_remarks": "7.0分",
-      "vod_class": "喜剧片",
-      "rating": "7.0",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 48649,
       "vod_name": "自然城市",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-1/4ec527974993f65ae1d440215427a488.jpg",
@@ -548,6 +515,39 @@
       "vod_remarks": "6.9分",
       "vod_class": "科幻片",
       "rating": "6.9",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 145112,
+      "vod_name": "不久，就要永别了",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260821-1/ad7f1edb6fecf461f6cdb86534fee4ce.jpg",
+      "vod_year": "2026",
+      "vod_area": "日本",
+      "vod_remarks": "6.9分",
+      "vod_class": "剧情片",
+      "rating": "6.9",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 141233,
+      "vod_name": "千年血后",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260728-1/117dcb79079613fd398935d131c579ee.jpg",
+      "vod_year": "1983",
+      "vod_area": "美国",
+      "vod_remarks": "6.8分",
+      "vod_class": "爱情片",
+      "rating": "6.8",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 138001,
+      "vod_name": "透明人",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260630-1/badc11f91ef8dceb730ca1a5145512d9.jpg",
+      "vod_year": "2000",
+      "vod_area": "美国",
+      "vod_remarks": "6.8分",
+      "vod_class": "科幻片",
+      "rating": "6.8",
       "source": "豆瓣资源"
     }
   ],
