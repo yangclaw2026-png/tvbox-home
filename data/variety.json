@@ -320,17 +320,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 802,
-      "vod_name": "荒野独居 第八季",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250109-5/b0a0c3e4a0d20448d33a45716498c0f8.jpg",
-      "vod_year": "2021",
-      "vod_area": "美国",
-      "vod_remarks": "7.8分",
-      "vod_class": "欧美综艺",
-      "rating": "7.8",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 7980,
       "vod_name": "福禄寿训练学院",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-68/9682b01d949aba8626c5176c2ee36b9f.jpg",
@@ -542,5 +531,5 @@
   ],
   "page": 1,
   "pagecount": 1,
-  "total": 49
+  "total": 48
 }

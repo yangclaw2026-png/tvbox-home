@@ -12,6 +12,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 149272,
+      "vod_name": "罗斯",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260912-1/9d04da1bafc77636ff6d13dbd6baf19b.jpg",
+      "vod_year": "2026",
+      "vod_area": "奥地利,德国",
+      "vod_remarks": "8.7分",
+      "vod_class": "剧情片",
+      "rating": "8.7",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 50747,
       "vod_name": "花束般的恋爱(日语)",
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-20/a8e7c8f26b0058661d9695f985135fcc.jpg",
@@ -166,17 +177,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 44218,
-      "vod_name": "瑞士军刀男",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-6/ecec97522dddb651f70c500f43847d7b.jpg",
-      "vod_year": "2016",
-      "vod_area": "美国",
-      "vod_remarks": "7.8分",
-      "vod_class": "剧情片",
-      "rating": "7.8",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 49376,
       "vod_name": "无境之兽",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-1/5696058524b7f08d9ec0c8f526b5c090.jpg",
@@ -254,6 +254,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 149392,
+      "vod_name": "电动维纳斯",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260913-1/33f892fa415eebae4bc47e99c9863f62.jpg",
+      "vod_year": "2026",
+      "vod_area": "法国",
+      "vod_remarks": "7.6分",
+      "vod_class": "喜剧片",
+      "rating": "7.6",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 53403,
       "vod_name": "南征北战",
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-17/93fda016cec96372a6aa673451b80c6a.jpg",
@@ -309,17 +320,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 144999,
-      "vod_name": "阳光女子合唱团",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260820-1/062b684d2e5ccde97aa92c63676d1d6a.jpg",
-      "vod_year": "2025",
-      "vod_area": "中国台湾",
-      "vod_remarks": "7.4分",
-      "vod_class": "剧情片",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 141660,
       "vod_name": "集中营里的摄影师",
       "vod_pic": "https://dbzy5.com/upload/vod/20260731-1/d79d3eb0a110e936235c6f4da5ee7a3f.jpg",
@@ -364,32 +364,10 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 141389,
-      "vod_name": "双重风险",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260729-1/4934804e085be33e0bf35d35552a346c.jpg",
-      "vod_year": "2021",
-      "vod_area": "奥地利",
-      "vod_remarks": "7.3分",
-      "vod_class": "恐怖片",
-      "rating": "7.3",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 142287,
       "vod_name": "黑色党徒",
       "vod_pic": "https://dbzy5.com/upload/vod/20260805-1/b0d9c23b00c06dcb8d590227e6e92958.jpg",
       "vod_year": "2018",
-      "vod_area": "美国",
-      "vod_remarks": "7.2分",
-      "vod_class": "喜剧片",
-      "rating": "7.2",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 142009,
-      "vod_name": "今年圣诞节",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260803-1/b31cf5376888ebdbeeb4cc22d0d00d9e.jpg",
-      "vod_year": "2007",
       "vod_area": "美国",
       "vod_remarks": "7.2分",
       "vod_class": "喜剧片",
@@ -548,6 +526,28 @@
       "vod_remarks": "6.8分",
       "vod_class": "科幻片",
       "rating": "6.8",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 20998,
+      "vod_name": "南征北战1974",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-55/fa2a5379623ef81903c4d60a4eea6039.jpg",
+      "vod_year": "1974",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.8分",
+      "vod_class": "战争片",
+      "rating": "6.8",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 55504,
+      "vod_name": "我盛大的希腊婚礼2",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250107-15/961cde4980b52c5e4d793f950ddb550d.jpg",
+      "vod_year": "2016",
+      "vod_area": "美国",
+      "vod_remarks": "6.7分",
+      "vod_class": "爱情片",
+      "rating": "6.7",
       "source": "豆瓣资源"
     }
   ],

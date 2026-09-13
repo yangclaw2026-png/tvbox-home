@@ -188,17 +188,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 136938,
-      "vod_name": "嫉妒的化身",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260618-1/ed1ea8b0d9a59b1fead15376687e4dc5.jpg",
-      "vod_year": "2016",
-      "vod_area": "韩国",
-      "vod_remarks": "8.2分",
-      "vod_class": "韩剧",
-      "rating": "8.2",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 118463,
       "vod_name": "若是一个人",
       "vod_pic": "https://dbzy5.com/upload/vod/20260112-1/1d544c1e58a391bb568469f180561df4.jpg",
@@ -261,17 +250,6 @@
       "vod_area": "中国香港",
       "vod_remarks": "8.0分",
       "vod_class": "香港剧",
-      "rating": "8.0",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 140205,
-      "vod_name": "乡村罗曼史",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260721-1/fd763a417f2bb251070c033146f0c00c.jpg",
-      "vod_year": "2026",
-      "vod_area": "泰国",
-      "vod_remarks": "8.0分",
-      "vod_class": "泰国剧",
       "rating": "8.0",
       "source": "豆瓣资源"
     },
@@ -548,6 +526,28 @@
       "vod_remarks": "7.4分",
       "vod_class": "台湾剧",
       "rating": "7.4",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 13261,
+      "vod_name": "盐水大饭店",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-62/cee4d32ed394b74fedcb4d734c4b0687.jpg",
+      "vod_year": "2024",
+      "vod_area": "中国台湾",
+      "vod_remarks": "7.4分",
+      "vod_class": "台湾剧",
+      "rating": "7.4",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 115947,
+      "vod_name": "怒海孤鸿 粤语版",
+      "vod_pic": "https://dbzy5.com/upload/vod/20251217-1/9d815ca5e183355642b41932a8a3c5c6.jpg",
+      "vod_year": "1991",
+      "vod_area": "中国香港",
+      "vod_remarks": "7.2分",
+      "vod_class": "香港剧",
+      "rating": "7.2",
       "source": "豆瓣资源"
     }
   ],
