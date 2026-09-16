@@ -452,17 +452,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 9004,
-      "vod_name": "爱情保卫战 2025",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-67/77fe741b1d57cf09c370f7fb594afe6c.jpg",
-      "vod_year": "2010",
-      "vod_area": "中国大陆",
-      "vod_remarks": "7.0分",
-      "vod_class": "大陆综艺",
-      "rating": "7.0",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 132302,
       "vod_name": "寻情记",
       "vod_pic": "https://dbzy5.com/upload/vod/20260517-1/67a1797652def3f4800491ba8b99f766.jpg",
@@ -531,5 +520,5 @@
   ],
   "page": 1,
   "pagecount": 1,
-  "total": 48
+  "total": 47
 }

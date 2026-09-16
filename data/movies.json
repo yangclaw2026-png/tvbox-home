@@ -496,17 +496,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 145112,
-      "vod_name": "不久，就要永别了",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260821-1/ad7f1edb6fecf461f6cdb86534fee4ce.jpg",
-      "vod_year": "2026",
-      "vod_area": "日本",
-      "vod_remarks": "6.9分",
-      "vod_class": "剧情片",
-      "rating": "6.9",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 141233,
       "vod_name": "千年血后",
       "vod_pic": "https://dbzy5.com/upload/vod/20260728-1/117dcb79079613fd398935d131c579ee.jpg",
@@ -545,6 +534,17 @@
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-15/961cde4980b52c5e4d793f950ddb550d.jpg",
       "vod_year": "2016",
       "vod_area": "美国",
+      "vod_remarks": "6.7分",
+      "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 81351,
+      "vod_name": "春香传",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250325-1/e97b17e21b4fbfac672bce777112b741.jpg",
+      "vod_year": "2000",
+      "vod_area": "韩国",
       "vod_remarks": "6.7分",
       "vod_class": "爱情片",
       "rating": "6.7",
