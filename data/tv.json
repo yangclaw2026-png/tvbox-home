@@ -56,17 +56,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 144247,
-      "vod_name": "医龙",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260817-1/71fb737c3f9da686342f4f5d7bc867b6.webp",
-      "vod_year": "2006",
-      "vod_area": "日本",
-      "vod_remarks": "8.9分",
-      "vod_class": "日本剧",
-      "rating": "8.9",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 122505,
       "vod_name": "阿尔玛不是一般人 第一季",
       "vod_pic": "https://dbzy5.com/upload/vod/20260209-1/b27b2bc660fc6231fbc9ac33a7d58e21.webp",
@@ -173,6 +162,17 @@
       "vod_area": "中国香港",
       "vod_remarks": "8.5分",
       "vod_class": "香港剧",
+      "rating": "8.5",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 150355,
+      "vod_name": "幸福伽菜子的快乐杀手生活 第二季",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260918-1/480f4910aaa2e70a0bdb1162468916cd.jpg",
+      "vod_year": "2026",
+      "vod_area": "日本",
+      "vod_remarks": "8.5分",
+      "vod_class": "日本剧",
       "rating": "8.5",
       "source": "豆瓣资源"
     },
