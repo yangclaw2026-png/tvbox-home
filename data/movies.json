@@ -23,17 +23,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 50747,
-      "vod_name": "花束般的恋爱(日语)",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250107-20/a8e7c8f26b0058661d9695f985135fcc.jpg",
-      "vod_year": "2021",
-      "vod_area": "日本",
-      "vod_remarks": "8.6分",
-      "vod_class": "爱情片",
-      "rating": "8.6",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 42321,
       "vod_name": "天国王朝",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-8/f1299c9128eb0b0868a4291e71cec8d3.jpg",
@@ -320,17 +309,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 143995,
-      "vod_name": "抓特务",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260815-1/b7daecb50323dd02308ea81bedbcb5a4.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国大陆",
-      "vod_remarks": "7.4分",
-      "vod_class": "剧情片",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 141660,
       "vod_name": "集中营里的摄影师",
       "vod_pic": "https://dbzy5.com/upload/vod/20260731-1/d79d3eb0a110e936235c6f4da5ee7a3f.jpg",
@@ -372,17 +350,6 @@
       "vod_remarks": "7.3分",
       "vod_class": "爱情片",
       "rating": "7.3",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 142287,
-      "vod_name": "黑色党徒",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260805-1/b0d9c23b00c06dcb8d590227e6e92958.jpg",
-      "vod_year": "2018",
-      "vod_area": "美国",
-      "vod_remarks": "7.2分",
-      "vod_class": "喜剧片",
-      "rating": "7.2",
       "source": "豆瓣资源"
     },
     {
@@ -441,13 +408,13 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 62123,
-      "vod_name": "阿特拉斯耸耸肩",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250107-9/fcbb24d4a804ffba61bd7538000d670c.jpg",
-      "vod_year": "2011",
-      "vod_area": "美国",
+      "vod_id": 150188,
+      "vod_name": "人生海海",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260918-1/0e9545d54a8650ee10dc14370c17ceb3.jpg",
+      "vod_year": "2025",
+      "vod_area": "马来西亚",
       "vod_remarks": "7.1分",
-      "vod_class": "科幻片",
+      "vod_class": "剧情片",
       "rating": "7.1",
       "source": "豆瓣资源"
     },
@@ -468,17 +435,6 @@
       "vod_pic": "https://dbzy5.com/upload/vod/20250211-1/a48c8f32a9176938903cf5036fb3aa97.jpg",
       "vod_year": "2025",
       "vod_area": "美国",
-      "vod_remarks": "7.0分",
-      "vod_class": "喜剧片",
-      "rating": "7.0",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 138037,
-      "vod_name": "性爱狂想曲",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260701-1/b1aa911df60f4517362b758f9897fccb.jpg",
-      "vod_year": "1994",
-      "vod_area": "日本",
       "vod_remarks": "7.0分",
       "vod_class": "喜剧片",
       "rating": "7.0",
@@ -547,6 +503,50 @@
       "vod_area": "美国",
       "vod_remarks": "6.7分",
       "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 81351,
+      "vod_name": "春香传",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250325-1/e97b17e21b4fbfac672bce777112b741.jpg",
+      "vod_year": "2000",
+      "vod_area": "韩国",
+      "vod_remarks": "6.7分",
+      "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 147667,
+      "vod_name": "特立独行",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260904-1/f48985e1f7ba934f87679432ea35df8c.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "喜剧片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 130947,
+      "vod_name": "植物学家",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260505-1/deb5f154c68c7ecae4a14de167611fbb.jpg",
+      "vod_year": "2025",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "剧情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 46165,
+      "vod_name": "无形的战线",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-4/c79c8266fa22489718b8ffa5060efb74.jpg",
+      "vod_year": "1949",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "战争片",
       "rating": "6.7",
       "source": "豆瓣资源"
     }
