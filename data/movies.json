@@ -133,17 +133,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 37430,
-      "vod_name": "警戒结束",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-38/390302faf8fb561ac102f6ffbd2e5e3c.jpg",
-      "vod_year": "2012",
-      "vod_area": "美国",
-      "vod_remarks": "7.9分",
-      "vod_class": "动作片",
-      "rating": "7.9",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 138297,
       "vod_name": "毁灭的发明",
       "vod_pic": "https://dbzy5.com/upload/vod/20260703-1/9b67d16f17ea502fcc46bf5e95d78581.jpg",
@@ -309,6 +298,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 144999,
+      "vod_name": "阳光女子合唱团",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260820-1/062b684d2e5ccde97aa92c63676d1d6a.jpg",
+      "vod_year": "2025",
+      "vod_area": "中国台湾",
+      "vod_remarks": "7.4分",
+      "vod_class": "剧情片",
+      "rating": "7.4",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 150935,
       "vod_name": "一个部门的诞生（粤语）",
       "vod_pic": "https://dbzy5.com/upload/vod/20260922-1/93d6c7fa4a1d6c53c79cb377b26e756e.jpg",
@@ -397,33 +397,11 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 147958,
-      "vod_name": "空枪",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260905-1/d053d60b9c7139fb487a95985a36f214.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国大陆,中国香港",
-      "vod_remarks": "7.2分",
-      "vod_class": "剧情片",
-      "rating": "7.2",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 27336,
       "vod_name": "热血街区电影版：极恶王 续篇",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-48/64713247a5ed1d7aa80754b9e4668aa1.jpg",
       "vod_year": "2022",
       "vod_area": "日本",
-      "vod_remarks": "7.1分",
-      "vod_class": "动作片",
-      "rating": "7.1",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 37325,
-      "vod_name": "全面回忆",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-38/582316246d6b9a8fbbd6108dc491edae.jpg",
-      "vod_year": "2012",
-      "vod_area": "美国",
       "vod_remarks": "7.1分",
       "vod_class": "动作片",
       "rating": "7.1",
@@ -547,6 +525,28 @@
       "vod_area": "韩国",
       "vod_remarks": "6.7分",
       "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 136954,
+      "vod_name": "比佛利拜金狗3",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260618-1/c49ec71b6c66c88b37583e62b0709b64.jpg",
+      "vod_year": "2012",
+      "vod_area": "美国",
+      "vod_remarks": "6.7分",
+      "vod_class": "喜剧片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 147667,
+      "vod_name": "特立独行",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260904-1/f48985e1f7ba934f87679432ea35df8c.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "喜剧片",
       "rating": "6.7",
       "source": "豆瓣资源"
     }
