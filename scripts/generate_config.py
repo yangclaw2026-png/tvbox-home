@@ -6,7 +6,7 @@ from datetime import datetime
 SOURCES_FILE = Path("scripts/sources.json")
 OUTPUT_FILE = Path("tvbox.json")
 
-BASE_URL = "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
+BASE_URL = "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main"
 DRPY_RUNTIME = f"{BASE_URL}/lib/drpy2.min.js"  # hjdhnx版本,依赖已替换为gh-proxy绝对URL
 SPIDER_JAR = "./jar/fan.txt"  # 播放器兼容的饭太硬 JAR 相对路径
 JAR_CLOUD = {"Cloud-drive": "tvfan/Cloud-drive.txt"}
@@ -136,13 +136,13 @@ def generate():
         "ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"],
         "lives": [
             # 主列表：保留用户提供的全部新闻频道及其备用地址
-            {"name":"八小喵┃新闻电影电视剧","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/ba-xiaomiao-live.m3u","playerType":2},
+            {"name":"八小喵┃新闻电影电视剧","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/ba-xiaomiao-live.m3u","playerType":2},
             # 补充列表：公开 IPv4 频道，提供主列表之外的备用线路
             {"name":"新闻直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃Hacks补充","type":0,"url":"https://live.hacks.tools/iptv/languages/zho.m3u","playerType":2},
             {"name":"新闻直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/categories/news.m3u","playerType":2},
             {"name":"中文直播┃IPTV-org补充","type":0,"url":"https://iptv-org.github.io/iptv/languages/zho.m3u","playerType":2}
-            ,{"name":"Bloomberg┃待补链路","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u","playerType":2}
+            ,{"name":"Bloomberg┃待补链路","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u","playerType":2}
         ],
         "_lastUpdate": datetime.now().isoformat(),
         "_stats": {

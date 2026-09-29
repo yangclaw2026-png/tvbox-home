@@ -279,8 +279,8 @@
       "key": "drpy_360影视",
       "name": "📺360影视┃官源",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/360影视.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/360影视.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -289,8 +289,8 @@
       "key": "drpy_腾云驾雾",
       "name": "🐧腾讯视频┃官源",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/腾云驾雾.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/腾云驾雾.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -299,8 +299,8 @@
       "key": "drpy_百忙无果",
       "name": "🥭芒果TV┃官源",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/百忙无果.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/百忙无果.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -309,8 +309,8 @@
       "key": "drpy_茶杯狐",
       "name": "🦊茶杯狐┃聚合",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/茶杯狐.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/茶杯狐.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -319,8 +319,8 @@
       "key": "drpy_voflix",
       "name": "🌊voflix┃热播",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/voflix.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/voflix.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -329,8 +329,8 @@
       "key": "drpy_荐片",
       "name": "🥝荐片┃主链路",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/荐片_new.js",
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/js/荐片_new.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -536,7 +536,7 @@
     {
       "name": "八小喵┃新闻电影电视剧",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/ba-xiaomiao-live.m3u",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/ba-xiaomiao-live.m3u",
       "playerType": 2
     },
     {
@@ -566,7 +566,7 @@
     {
       "name": "Bloomberg┃待补链路",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/refs/heads/main/live/bloomberg.m3u",
       "playerType": 2
     }
   ],
