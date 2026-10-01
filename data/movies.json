@@ -1,6 +1,17 @@
 {
   "list": [
     {
+      "vod_id": 151663,
+      "vod_name": "给阿嬷的情书",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260930-1/a2c46c5ee45b6ffd6e187791a040b082.webp",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "9.3分",
+      "vod_class": "剧情片",
+      "rating": "9.3",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 36777,
       "vod_name": "革命往事",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-39/b2bd12e24efc5eb3e085952f6e49b04e.jpg",
@@ -130,6 +141,17 @@
       "vod_remarks": "8.2分",
       "vod_class": "战争片",
       "rating": "8.2",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 151578,
+      "vod_name": "燃烧",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260929-1/4cac0ffab85e4659fc037b2feb972206.webp",
+      "vod_year": "2018",
+      "vod_area": "韩国",
+      "vod_remarks": "8.1分",
+      "vod_class": "剧情片",
+      "rating": "8.1",
       "source": "豆瓣资源"
     },
     {
@@ -430,6 +452,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 151113,
+      "vod_name": "长尾豹历险记",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260925-1/f3863c015d63636b490e7c5739d4e4a7.jpg",
+      "vod_year": "2026",
+      "vod_area": "法国,比利时",
+      "vod_remarks": "7.0分",
+      "vod_class": "喜剧片",
+      "rating": "7.0",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 74098,
       "vod_name": "倒霉日",
       "vod_pic": "https://dbzy5.com/upload/vod/20250211-1/a48c8f32a9176938903cf5036fb3aa97.jpg",
@@ -514,39 +547,6 @@
       "vod_area": "美国",
       "vod_remarks": "6.7分",
       "vod_class": "爱情片",
-      "rating": "6.7",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 81351,
-      "vod_name": "春香传",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250325-1/e97b17e21b4fbfac672bce777112b741.jpg",
-      "vod_year": "2000",
-      "vod_area": "韩国",
-      "vod_remarks": "6.7分",
-      "vod_class": "爱情片",
-      "rating": "6.7",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 136954,
-      "vod_name": "比佛利拜金狗3",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260618-1/c49ec71b6c66c88b37583e62b0709b64.jpg",
-      "vod_year": "2012",
-      "vod_area": "美国",
-      "vod_remarks": "6.7分",
-      "vod_class": "喜剧片",
-      "rating": "6.7",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 147667,
-      "vod_name": "特立独行",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260904-1/f48985e1f7ba934f87679432ea35df8c.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国大陆",
-      "vod_remarks": "6.7分",
-      "vod_class": "喜剧片",
       "rating": "6.7",
       "source": "豆瓣资源"
     }
