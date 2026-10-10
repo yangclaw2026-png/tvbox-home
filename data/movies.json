@@ -78,17 +78,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 136174,
-      "vod_name": "火遮眼（国语版）",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260611-1/ef4045590d28f163b3d9e7769a3aa56a.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国香港,中国大陆",
-      "vod_remarks": "8.5分",
-      "vod_class": "动作片",
-      "rating": "8.5",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 52517,
       "vod_name": "逃离索比堡",
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-18/cbc095e3a10f7dd1b8d996fab5ea73ba.jpg",
@@ -108,17 +97,6 @@
       "vod_remarks": "8.4分",
       "vod_class": "战争片",
       "rating": "8.4",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 52648,
-      "vod_name": "近松物语",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250107-18/ca8f72b61e42d4f04ca9881e8cdb4543.jpg",
-      "vod_year": "1954",
-      "vod_area": "日本",
-      "vod_remarks": "8.3分",
-      "vod_class": "爱情片",
-      "rating": "8.3",
       "source": "豆瓣资源"
     },
     {
@@ -207,17 +185,6 @@
       "vod_remarks": "7.8分",
       "vod_class": "战争片",
       "rating": "7.8",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 143816,
-      "vod_name": "火遮眼（英文版）",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260814-1/31b1c3af60dab80e062e76b7350d30ca.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国香港,中国大陆",
-      "vod_remarks": "7.7分",
-      "vod_class": "动作片",
-      "rating": "7.7",
       "source": "豆瓣资源"
     },
     {
@@ -316,17 +283,6 @@
       "vod_area": "韩国",
       "vod_remarks": "7.4分",
       "vod_class": "爱情片",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 44573,
-      "vod_name": "四个婚礼和一个葬礼",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-6/285c962ea3b8271bdf531eb72f3f2e22.jpg",
-      "vod_year": "1994",
-      "vod_area": "英国",
-      "vod_remarks": "7.4分",
-      "vod_class": "喜剧片",
       "rating": "7.4",
       "source": "豆瓣资源"
     },
@@ -430,28 +386,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 27336,
-      "vod_name": "热血街区电影版：极恶王 续篇",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-48/64713247a5ed1d7aa80754b9e4668aa1.jpg",
-      "vod_year": "2022",
-      "vod_area": "日本",
-      "vod_remarks": "7.1分",
-      "vod_class": "动作片",
-      "rating": "7.1",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 150188,
-      "vod_name": "人生海海",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260918-1/0e9545d54a8650ee10dc14370c17ceb3.jpg",
-      "vod_year": "2025",
-      "vod_area": "马来西亚",
-      "vod_remarks": "7.1分",
-      "vod_class": "剧情片",
-      "rating": "7.1",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 52316,
       "vod_name": "蓝与黑续集",
       "vod_pic": "https://dbzy5.com/upload/vod/20250107-18/ec84a416719d7b890b126a408226e9bb.jpg",
@@ -548,6 +482,72 @@
       "vod_remarks": "6.8分",
       "vod_class": "战争片",
       "rating": "6.8",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 55504,
+      "vod_name": "我盛大的希腊婚礼2",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250107-15/961cde4980b52c5e4d793f950ddb550d.jpg",
+      "vod_year": "2016",
+      "vod_area": "美国",
+      "vod_remarks": "6.7分",
+      "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 81351,
+      "vod_name": "春香传",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250325-1/e97b17e21b4fbfac672bce777112b741.jpg",
+      "vod_year": "2000",
+      "vod_area": "韩国",
+      "vod_remarks": "6.7分",
+      "vod_class": "爱情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 136954,
+      "vod_name": "比佛利拜金狗3",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260618-1/c49ec71b6c66c88b37583e62b0709b64.jpg",
+      "vod_year": "2012",
+      "vod_area": "美国",
+      "vod_remarks": "6.7分",
+      "vod_class": "喜剧片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 147667,
+      "vod_name": "特立独行",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260904-1/f48985e1f7ba934f87679432ea35df8c.jpg",
+      "vod_year": "2026",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "喜剧片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 151935,
+      "vod_name": "挖掘者",
+      "vod_pic": "https://dbzy5.com/upload/vod/20261003-1/98618f350f57213b286517d933e098c3.jpg",
+      "vod_year": "2026",
+      "vod_area": "美国,英国,墨西哥",
+      "vod_remarks": "6.7分",
+      "vod_class": "剧情片",
+      "rating": "6.7",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 46165,
+      "vod_name": "无形的战线",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-4/c79c8266fa22489718b8ffa5060efb74.jpg",
+      "vod_year": "1949",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.7分",
+      "vod_class": "战争片",
+      "rating": "6.7",
       "source": "豆瓣资源"
     }
   ],

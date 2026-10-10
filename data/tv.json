@@ -474,17 +474,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 148409,
-      "vod_name": "假面骑士麦斯",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260907-1/3ce3749b04d7b8aedc6ca2b9c7db22b8.jpg",
-      "vod_year": "2026",
-      "vod_area": "日本",
-      "vod_remarks": "7.5分",
-      "vod_class": "日本剧",
-      "rating": "7.5",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 80847,
       "vod_name": "金牌冰人",
       "vod_pic": "https://dbzy5.com/upload/vod/20250322-1/2a719f43ffb72df3e93a69fa4af50911.jpg",
@@ -544,6 +533,17 @@
       "vod_name": "一枝花和尚",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-67/42334307a489842382c6f5b6c06eb47e.jpg",
       "vod_year": "1997",
+      "vod_area": "中国香港",
+      "vod_remarks": "7.1分",
+      "vod_class": "香港剧",
+      "rating": "7.1",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 116738,
+      "vod_name": "缉私群英",
+      "vod_pic": "https://dbzy5.com/upload/vod/20251224-1/4b0928073ec9edb0681d6583de7f25bb.jpg",
+      "vod_year": "1996",
       "vod_area": "中国香港",
       "vod_remarks": "7.1分",
       "vod_class": "香港剧",
