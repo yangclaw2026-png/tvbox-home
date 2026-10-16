@@ -12,6 +12,28 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 153425,
+      "vod_name": "人生七年 第十季（中配文）",
+      "vod_pic": "https://dbzy5.com/upload/vod/20261015-1/1e4a89d7c6629952dcd74dae932e39e3.jpg",
+      "vod_year": "2026",
+      "vod_area": "英国",
+      "vod_remarks": "9.5分",
+      "vod_class": "欧美剧",
+      "rating": "9.5",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 153424,
+      "vod_name": "人生七年 第十季",
+      "vod_pic": "https://dbzy5.com/upload/vod/20261015-1/51ab82a8c63cd64b6d486feb371b3ac4.jpg",
+      "vod_year": "2026",
+      "vod_area": "英国",
+      "vod_remarks": "9.5分",
+      "vod_class": "欧美剧",
+      "rating": "9.5",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 20290,
       "vod_name": "巾帼枭雄之义海豪情",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-55/489e7ae8987e76523ea9f4d00d64860a.jpg",
@@ -526,28 +548,6 @@
       "vod_remarks": "7.2分",
       "vod_class": "台湾剧",
       "rating": "7.2",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 8875,
-      "vod_name": "一枝花和尚",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-67/42334307a489842382c6f5b6c06eb47e.jpg",
-      "vod_year": "1997",
-      "vod_area": "中国香港",
-      "vod_remarks": "7.1分",
-      "vod_class": "香港剧",
-      "rating": "7.1",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 116738,
-      "vod_name": "缉私群英",
-      "vod_pic": "https://dbzy5.com/upload/vod/20251224-1/4b0928073ec9edb0681d6583de7f25bb.jpg",
-      "vod_year": "1996",
-      "vod_area": "中国香港",
-      "vod_remarks": "7.1分",
-      "vod_class": "香港剧",
-      "rating": "7.1",
       "source": "豆瓣资源"
     }
   ],
