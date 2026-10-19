@@ -430,17 +430,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 70660,
-      "vod_name": "毛雪汪 2021",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250118-1/9dae6d155fbc8b690c0852911e9537d2.jpg",
-      "vod_year": "2021",
-      "vod_area": "中国大陆",
-      "vod_remarks": "7.4分",
-      "vod_class": "大陆综艺",
-      "rating": "7.4",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 45232,
       "vod_name": "杨澜访谈录2013",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-5/495f92e1d141d56f7aa769defd361e2d.jpg",
@@ -463,14 +452,14 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 9004,
-      "vod_name": "爱情保卫战 2025",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250108-67/77fe741b1d57cf09c370f7fb594afe6c.jpg",
-      "vod_year": "2010",
+      "vod_id": 132302,
+      "vod_name": "寻情记",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260517-1/67a1797652def3f4800491ba8b99f766.jpg",
+      "vod_year": "2007",
       "vod_area": "中国大陆",
-      "vod_remarks": "7.0分",
+      "vod_remarks": "6.6分",
       "vod_class": "大陆综艺",
-      "rating": "7.0",
+      "rating": "6.6",
       "source": "豆瓣资源"
     },
     {
@@ -531,5 +520,5 @@
   ],
   "page": 1,
   "pagecount": 1,
-  "total": 48
+  "total": 47
 }

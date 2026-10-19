@@ -1,17 +1,6 @@
 {
   "list": [
     {
-      "vod_id": 151663,
-      "vod_name": "给阿嬷的情书",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260930-1/a2c46c5ee45b6ffd6e187791a040b082.webp",
-      "vod_year": "2026",
-      "vod_area": "中国大陆",
-      "vod_remarks": "9.3分",
-      "vod_class": "剧情片",
-      "rating": "9.3",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 36777,
       "vod_name": "革命往事",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-39/b2bd12e24efc5eb3e085952f6e49b04e.jpg",
@@ -111,17 +100,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 151578,
-      "vod_name": "燃烧",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260929-1/4cac0ffab85e4659fc037b2feb972206.webp",
-      "vod_year": "2018",
-      "vod_area": "韩国",
-      "vod_remarks": "8.1分",
-      "vod_class": "剧情片",
-      "rating": "8.1",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 138297,
       "vod_name": "毁灭的发明",
       "vod_pic": "https://dbzy5.com/upload/vod/20260703-1/9b67d16f17ea502fcc46bf5e95d78581.jpg",
@@ -133,17 +111,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 138387,
-      "vod_name": "戴高乐之战：淬炼时代",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260704-1/ba5d68fc9fee9fbe5c4235bd0949e1a0.jpg",
-      "vod_year": "2026",
-      "vod_area": "法国",
-      "vod_remarks": "7.9分",
-      "vod_class": "剧情片",
-      "rating": "7.9",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 141487,
       "vod_name": "蜘蛛侠：崭新之日",
       "vod_pic": "https://dbzy5.com/upload/vod/20260730-1/46f3615278b06564466d56d8e7d67882.jpg",
@@ -151,6 +118,17 @@
       "vod_area": "美国",
       "vod_remarks": "7.8分",
       "vod_class": "动作片",
+      "rating": "7.8",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 153483,
+      "vod_name": "理想之魂",
+      "vod_pic": "https://dbzy5.com/upload/vod/20261016-1/764fdb621c50ad76608b416a60b6f65b.webp",
+      "vod_year": "2026",
+      "vod_area": "法国",
+      "vod_remarks": "7.8分",
+      "vod_class": "喜剧片",
       "rating": "7.8",
       "source": "豆瓣资源"
     },
@@ -251,17 +229,6 @@
       "vod_remarks": "7.5分",
       "vod_class": "战争片",
       "rating": "7.5",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 144999,
-      "vod_name": "阳光女子合唱团",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260820-1/062b684d2e5ccde97aa92c63676d1d6a.jpg",
-      "vod_year": "2025",
-      "vod_area": "中国台湾",
-      "vod_remarks": "7.4分",
-      "vod_class": "剧情片",
-      "rating": "7.4",
       "source": "豆瓣资源"
     },
     {
@@ -393,17 +360,6 @@
       "vod_area": "日本",
       "vod_remarks": "6.9分",
       "vod_class": "科幻片",
-      "rating": "6.9",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 136955,
-      "vod_name": "比佛利拜金狗",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260618-1/412ad60a41137218991c6a949b987039.jpg",
-      "vod_year": "2008",
-      "vod_area": "美国",
-      "vod_remarks": "6.9分",
-      "vod_class": "剧情片",
       "rating": "6.9",
       "source": "豆瓣资源"
     },
@@ -548,6 +504,50 @@
       "vod_remarks": "6.6分",
       "vod_class": "战争片",
       "rating": "6.6",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 67628,
+      "vod_name": "代立军",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250107-3/aef71efedc6555baa79055daa90c3f99.jpg",
+      "vod_year": "2017",
+      "vod_area": "韩国",
+      "vod_remarks": "6.6分",
+      "vod_class": "战争片",
+      "rating": "6.6",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 67667,
+      "vod_name": "余波",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250107-3/faf14adfc10b1c692974546132e86d84.jpg",
+      "vod_year": "2019",
+      "vod_area": "英国 / 美国 / 德国",
+      "vod_remarks": "6.6分",
+      "vod_class": "战争片",
+      "rating": "6.6",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 46103,
+      "vod_name": "无名岛",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-4/470987640f175046a9df7bbcfe2a00b0.jpg",
+      "vod_year": "1959",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.5分",
+      "vod_class": "战争片",
+      "rating": "6.5",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 152956,
+      "vod_name": "尼娜与萝扎",
+      "vod_pic": "",
+      "vod_year": "2026",
+      "vod_area": "加拿大,比利时,保加利亚,意大利",
+      "vod_remarks": "6.4分",
+      "vod_class": "剧情片",
+      "rating": "6.4",
       "source": "豆瓣资源"
     }
   ],

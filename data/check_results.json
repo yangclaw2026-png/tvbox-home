@@ -2,37 +2,37 @@
   {
     "name": "光速资源",
     "status": "ok",
-    "latency": 586,
+    "latency": 622,
     "type": ""
   },
   {
     "name": "红牛资源",
     "status": "ok",
-    "latency": 415,
+    "latency": 307,
     "type": ""
   },
   {
     "name": "量子资源",
     "status": "ok",
-    "latency": 1012,
+    "latency": 947,
     "type": ""
   },
   {
     "name": "非凡资源",
     "status": "ok",
-    "latency": 1436,
+    "latency": 1502,
     "type": ""
   },
   {
     "name": "暴风资源",
     "status": "ok",
-    "latency": 784,
+    "latency": 455,
     "type": ""
   },
   {
     "name": "速播资源",
     "status": "ok",
-    "latency": 903,
+    "latency": 716,
     "type": ""
   }
 ]
