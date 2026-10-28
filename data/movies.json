@@ -166,6 +166,17 @@
       "source": "豆瓣资源"
     },
     {
+      "vod_id": 154428,
+      "vod_name": "柳条人",
+      "vod_pic": "https://dbzy5.com/upload/vod/20261028-1/7af407c5aa50efbe65116c1b1d3977f7.webp",
+      "vod_year": "2026",
+      "vod_area": "美国,英国",
+      "vod_remarks": "7.7分",
+      "vod_class": "剧情片",
+      "rating": "7.7",
+      "source": "豆瓣资源"
+    },
+    {
       "vod_id": 19784,
       "vod_name": "宋景诗",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-56/8794cf581a1edaa04a2e7b7942c5336f.jpg",
@@ -331,17 +342,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 74098,
-      "vod_name": "倒霉日",
-      "vod_pic": "https://dbzy5.com/upload/vod/20250211-1/a48c8f32a9176938903cf5036fb3aa97.jpg",
-      "vod_year": "2025",
-      "vod_area": "美国",
-      "vod_remarks": "7.0分",
-      "vod_class": "喜剧片",
-      "rating": "7.0",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 48649,
       "vod_name": "自然城市",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-1/4ec527974993f65ae1d440215427a488.jpg",
@@ -430,17 +430,6 @@
       "source": "豆瓣资源"
     },
     {
-      "vod_id": 151935,
-      "vod_name": "挖掘者",
-      "vod_pic": "https://dbzy5.com/upload/vod/20261003-1/98618f350f57213b286517d933e098c3.jpg",
-      "vod_year": "2026",
-      "vod_area": "美国,英国,墨西哥",
-      "vod_remarks": "6.7分",
-      "vod_class": "剧情片",
-      "rating": "6.7",
-      "source": "豆瓣资源"
-    },
-    {
       "vod_id": 46165,
       "vod_name": "无形的战线",
       "vod_pic": "https://dbzy5.com/upload/vod/20250108-4/c79c8266fa22489718b8ffa5060efb74.jpg",
@@ -481,17 +470,6 @@
       "vod_area": "中国大陆",
       "vod_remarks": "6.6分",
       "vod_class": "喜剧片",
-      "rating": "6.6",
-      "source": "豆瓣资源"
-    },
-    {
-      "vod_id": 139638,
-      "vod_name": "功夫女足",
-      "vod_pic": "https://dbzy5.com/upload/vod/20260712-1/d9f3af078a4a51125ef92b2b67dcc052.jpg",
-      "vod_year": "2026",
-      "vod_area": "中国香港,中国大陆",
-      "vod_remarks": "6.6分",
-      "vod_class": "剧情片",
       "rating": "6.6",
       "source": "豆瓣资源"
     },
@@ -547,6 +525,28 @@
       "vod_area": "加拿大,比利时,保加利亚,意大利",
       "vod_remarks": "6.4分",
       "vod_class": "剧情片",
+      "rating": "6.4",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 131129,
+      "vod_name": "塔纳吉：无名勇士",
+      "vod_pic": "https://dbzy5.com/upload/vod/20260506-1/66408d54b05da88376f5648472439734.jpg",
+      "vod_year": "2020",
+      "vod_area": "印度",
+      "vod_remarks": "6.4分",
+      "vod_class": "战争片",
+      "rating": "6.4",
+      "source": "豆瓣资源"
+    },
+    {
+      "vod_id": 49069,
+      "vod_name": "可爱的中国",
+      "vod_pic": "https://dbzy5.com/upload/vod/20250108-1/1a3309debfbdc02b4275f41f91823644.jpg",
+      "vod_year": "2009",
+      "vod_area": "中国大陆",
+      "vod_remarks": "6.4分",
+      "vod_class": "战争片",
       "rating": "6.4",
       "source": "豆瓣资源"
     }
