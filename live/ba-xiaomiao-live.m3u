@@ -59,6 +59,16 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbcl
 http://38.75.136.137:98/gslb/dsdqpub/lbzrf.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="周润发" group-title="电影轮播",周润发
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbzrf
+#EXTINF:-1 tvg-name="刘德华" group-title="电影轮播",刘德华
+http://74.91.26.218:82/live/vlldh.m3u8
+#EXTINF:-1 tvg-name="洪金宝" group-title="电影轮播",洪金宝
+http://74.91.26.218:82/live/vlhjb.m3u8
+#EXTINF:-1 tvg-name="黄百鸣" group-title="电影轮播",黄百鸣
+http://74.91.26.218:82/live/vlhbm.m3u8
+#EXTINF:-1 tvg-name="喜剧影院" group-title="电影轮播",喜剧影院
+http://74.91.26.218:82/live/vlxjyy.m3u8
+#EXTINF:-1 tvg-name="爱情公寓" group-title="电视剧轮播",爱情公寓
+http://74.91.26.218:82/live/vlaqgy.m3u8
 #EXTINF:-1 tvg-name="古天乐" group-title="电影轮播",古天乐
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbgtl
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="电影轮播",CHC家庭影院
