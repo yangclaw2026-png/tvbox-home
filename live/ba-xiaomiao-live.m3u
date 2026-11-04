@@ -23,8 +23,12 @@ https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
 http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="中文新闻",凤凰资讯
+http://183.239.108.37:1698/hls/95/index.m3u8
 #EXTINF:-1 tvg-name="凤凰中文台" group-title="中文新闻",凤凰中文台
 http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1 tvg-name="凤凰中文台" group-title="中文新闻",凤凰中文台
+http://183.239.108.37:1698/hls/96/index.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="中文新闻",凤凰香港
 http://61.221.215.25:8800/hls/49/index.m3u8
 #EXTINF:-1 tvg-name="台视" group-title="台湾新闻",台视
