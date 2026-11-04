@@ -65,10 +65,6 @@ http://38.75.136.137:98/gslb/dsdqpub/lbzrf.m3u8?auth=testpub
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbzrf
 #EXTINF:-1 tvg-name="周润发" group-title="电影轮播",周润发
 http://107.150.60.122/live/lbzrf.m3u8
-#EXTINF:-1 tvg-name="林正英" group-title="电影轮播",林正英
-http://38.75.136.137:98/gslb/dsdqpub/lblzy.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="林正英" group-title="电影轮播",林正英
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lblzy
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="电影轮播",CHC家庭影院
 http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="电影轮播",CHC家庭影院
